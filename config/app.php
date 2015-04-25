@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'debug' => env('APP_DEBUG'),
+	'debug' => true, //env('APP_DEBUG'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'GMT+1',
+	'timezone' => 'Europe/Zurich',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,10 +78,9 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'SomeRandomString'),
+	'key' => env('APP_KEY', '{X9BT-ww%\xAZTaiT-E}^nWFAVY=rmNB'),
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
-
 	/*
 	|--------------------------------------------------------------------------
 	| Logging Configuration
@@ -144,7 +143,11 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
-
+		/*
+		 * Extra helpers
+		 */
+		//https://www.flynsarmy.com/2015/02/install-illuminatehtml-laravel-5/
+		'Illuminate\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -193,6 +196,8 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 
+		'Form'=> 'Illuminate\Html\FormFacade', 
+		'HTML'=> 'Illuminate\Html\HtmlFacade',
 	],
 
 ];

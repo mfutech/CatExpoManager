@@ -11,13 +11,24 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+// Provide controller methods with object instead of ID
+Route::model('expositions', 'App\Exposition');
 
+// basic routing
+Route::get('/', 'WelcomeController@index');
 Route::get('home', 'HomeController@index');
 
+// auth and user management
 Route::get('users', function() { return 'Users!'; });
+
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+// ressources
+Route::resource('expositions','ExpositionsController');
+Route::resource('catteries', 'CatteriesController');
+

@@ -36,7 +36,8 @@
 					<li><a href="{{ url('/') }}">Home</a></li>
 					@if(!Auth::guest())
 						<li><a href="{{ url('/expositions') }}">Expositions</a>
-					@endif
+						<li><a href="{{ url('/catteries') }}">Chatterie</a>
+						@endif
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

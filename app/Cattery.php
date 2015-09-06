@@ -1,17 +1,18 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
 class Cattery extends Model {
 
 	//
 	protected $fillable = [ 'name', 'email', 'mobile', 'phone', 'url' ];
-/*
-	public function users()
+
+	public function user()
     {
-        return $this->hasMany('App\Users');
+        return $this->hasOne('App\Users');
     }
-*/	
+	
 }
 
 /*
@@ -27,3 +28,4 @@ class Cattery extends Model {
 		});
 		
 */
+

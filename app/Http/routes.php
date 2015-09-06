@@ -27,6 +27,7 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+Route::get('profiles', ['uses' => 'ProfileController@index']);
 
 // ressources
 Route::resource('expositions','ExpositionsController');

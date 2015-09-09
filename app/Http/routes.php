@@ -13,6 +13,7 @@
 
 // Provide controller methods with object instead of ID
 Route::model('expositions', 'App\Exposition');
+Route::model('cats', 'App\Cat');
 
 // basic routing
 Route::get('/', 'WelcomeController@index');
@@ -27,9 +28,10 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('profiles', ['uses' => 'ProfileController@index']);
+Route::get('profile', ['uses' => 'ProfileController@index']);
 
 // ressources
 Route::resource('expositions','ExpositionsController');
-Route::resource('catteries', 'CatteriesController');
+Route::resource('cats', 'CatsController');
+//Route::resource('catteries', 'CatteriesController');
 

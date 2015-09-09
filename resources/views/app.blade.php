@@ -36,7 +36,7 @@
 					<li><a href="{{ url('/') }}">Home</a></li>
 					@if(!Auth::guest())
 						<li><a href="{{ url('/expositions') }}">Expositions</a>
-						<li><a href="{{ url('/catteries') }}">Chatterie</a>
+						<li><a href="{{ url('/cats') }}">Chats</a>
 						@endif
 				</ul>
 
@@ -45,13 +45,11 @@
 						<li><a href="{{ url('/auth/login') }}">Connexion</a></li>
 						<li><a href="{{ url('/auth/register') }}">Enregistrements</a></li>
 					@else
-						<li><a href="{{ url('/profile/show') }}">Profile</a></li>
-						<li><a href="{{ url('/auth/logout') }}">Déconnexion</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
 								aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="{{ url('/profile/show') }}">Profile</a></li>
+								<li><a href="{{ url('/profile') }}">Profile</a></li>
 								<li><a href="{{ url('/auth/logout') }}">Déconnexion</a></li>
 							</ul>
 						</li>

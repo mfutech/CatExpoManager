@@ -1,5 +1,8 @@
-@extends('page') @section('page_title') {{ $user->firstname }} {{
-$user->lastname }} @endsection @section('page_content')
+@extends('page')
+@section('page_title')
+	{{ $user->firstname }} {{$user->lastname }}
+@endsection
+@section('page_content')
 <ul class="list-group">
 	<li class="list-group-item">{{ $user->firstname }} {{ $user->lastname }} {{ $user->name }}</li>
 	<li class="list-group-item">{{ $user->address }}</li>

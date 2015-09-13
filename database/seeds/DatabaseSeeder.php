@@ -91,4 +91,9 @@ class UserTableSeeder extends Seeder {
  
 };
 
+class CatTableSeeder extends Seeder {
+	public function run()
+	{
 
+	}
+}

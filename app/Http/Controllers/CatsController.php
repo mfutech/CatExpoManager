@@ -1,8 +1,10 @@
 <?php namespace App\Http\Controllers;
 
+use Auth;
+use Input;
+use Redirect;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
 use App\Cat;
 
@@ -37,7 +39,7 @@ class CatsController extends Controller {
 	 */
 	public function create()
 	{
-		//
+		return view('cats.create');
 	}
 
 	/**
@@ -47,7 +49,11 @@ class CatsController extends Controller {
 	 */
 	public function store()
 	{
-		//
+		$input = array_except(Input::all(), ['_method', '_token']);
+		$cat = Cat::create( $input );
+		$cat->owner()->associate(Auth::user());
+		$cat->save();
+		return Redirect::route('cats.index')->with('message', 'Chat ajouté');
 	}
 
 	/**
@@ -67,9 +73,9 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit(Cat $cat)
 	{
-		//
+		return view('cats.edit', compact('cat'));
 	}
 
 	/**
@@ -78,9 +84,12 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update(Cat $cat)
 	{
-		//
+		$input = array_except(Input::all(), ['_method', '_token']);
+		$cat->update($input);
+		return Redirect::route('cats.show', $cat)->with('message', 'Donnée validée.');
+
 	}
 
 	/**

@@ -1,26 +1,22 @@
+
 <div class="form-group">
-    {!! Form::label('title', 'Titre:') !!}
-    {!! Form::text('title') !!}
+    {!! Form::label('name', 'Nom:', [ 'class' => 'col-md-10']) !!}
+    {!! Form::text('name') !!}
 </div>
 <div class="form-group">
-    {!! Form::label('start', 'D&eacute;bute le:') !!}
-    {!! Form::input('date', 'start', null, array('type' => 'Date', 'placeholder' => 'Date' )) !!}
-    {!! Form::label('end', 'Fin le:') !!}
-    {!! Form::input('date', 'end', null, array('type' => 'Date', 'placeholder' => 'Date' )) !!}
-    {!! Form::label('open_till', 'Inscription jusqu\'au:') !!}
-    {!! Form::input('date', 'open_till', null, array('type' => 'Date', 'placeholder' => 'Date' )) !!}
+    {!! Form::label('race', 'Race:', [ 'class' => 'col-sm-10']) !!}
+    {!! Form::text('race') !!}
 </div>
 <div class="form-group">
-    {!! Form::label('address', 'Adresse:') !!}
-    {!! Form::text('address') !!}
-    {!! Form::label('city', 'Ville:') !!}
-    {!! Form::text('city') !!}
-</div>
-<div class="form-group">
-    {!! Form::label('url', 'Lien (URL):') !!}
-    {!! Form::text('url') !!}
+    {!! Form::label('color', 'Couleur:', [ 'class' => 'col-sm-10']) !!}
+    {!! Form::text('color') !!}
 </div>
 
 <div class="form-group">
-    {!! Form::submit($submit_text, ['class'=>'btn primary']) !!}
+    {!! Form::label('birthdate', 'N&eacute;(e) le:', [ 'class' => 'col-sm-10']) !!}
+    {!! Form::input('birthdate', 'birthdate', null, array('type' => 'Date', 'placeholder' => 'Né(e) Le' )) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::submit($submit_text, ['class'=>'btn btn-primary col-sm-10']) !!}
 </div>

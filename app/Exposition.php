@@ -36,4 +36,9 @@ class Exposition extends Model {
 	{
 		return Carbon::createFromFormat("Y-m-d", $this->end)->format('d.m.Y');
 	}
+
+	public function registrations()
+	{
+		return $this->hasMany('App\Registration');
+	}
 }

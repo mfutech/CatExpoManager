@@ -26,4 +26,5 @@ Liste des vos Chats
 		</tr>
 	@endforeach
 </table>
+	<a class="btn btn-danger " href="{{ route("cats.create") }}">Ajout</a>
 @endsection

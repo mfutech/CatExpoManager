@@ -1,11 +1,11 @@
 @extends('page')
  
 @section('page_title')
-	Edition de l'expo "{{$expo->title}}"
+	Edition de "{{$cat->name}}"
 @endsection
 @section('page_content')
-	{!! Form::model($expo, ['method' => 'PATCH', 'route' => ['expositions.update', $expo->id]]) !!}
-		@include('expositions/partials/_form', ['submit_text' => 'Valider'])
+	{!! Form::model($cat, ['method' => 'PATCH', 'route' => ['cats.update', $cat->id]]) !!}
+		@include('cats/partials/_form', ['submit_text' => 'Valider'])
 	{!! Form::close() !!}
 
 @endsection

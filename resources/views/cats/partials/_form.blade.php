@@ -14,7 +14,7 @@
 
 <div class="form-group">
     {!! Form::label('birthdate', 'N&eacute;(e) le:', [ 'class' => 'col-sm-10']) !!}
-    {!! Form::input('birthdate', 'birthdate', null, array('type' => 'Date', 'placeholder' => 'Né(e) Le' )) !!}
+    {!! Form::input('birthdate', 'birthdate', null, array('type' => 'Date', 'placeholder' => 'Nï¿½(e) Le' )) !!}
 </div>
 
 <div class="form-group">

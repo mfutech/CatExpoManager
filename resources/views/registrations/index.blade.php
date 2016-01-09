@@ -23,7 +23,7 @@ Liste des Exposition du Cat Club
 				@if(in_array($expo->id, $regexpos))
 					<a class="btn btn-primary" href="{{ route('registrations.show', $expo) }}"> Status Inscription</a>
 				@elseif($expo->subscription_open)
-					<a class="btn btn-primary " href="{{ url('registrations/register', $expo) }}">S'Inscrire</a>
+					<a class="btn btn-primary " href="{{ route('expositions.create', $expo) }}">S'Inscrire</a>
 				@else
 					<button class="btn btn-primary disabled">Inscription Terminée</button>
 				@endif

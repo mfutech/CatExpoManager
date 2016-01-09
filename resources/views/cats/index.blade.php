@@ -21,7 +21,8 @@ Liste des vos Chats
 			<td>{{ $cat->race }} </td>
 			<td>{{ $cat->color }} </td>
 			<td>
-				<a class="btn btn-info" href="{{ route("cats.show", $cat->id) }}">Détails</a>
+				<a class="btn btn-info" href="{{ route("cats.show", $cat) }}">Détails</a>
+				<a class="btn btn-primary" href="{{ route("cats.edit", $cat) }}">Modifer</a>
 			</td>
 		</tr>
 	@endforeach

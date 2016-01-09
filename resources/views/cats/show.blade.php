@@ -31,4 +31,6 @@
     		</div>
     	</div>
 	</form>
+	<a class="btn btn-info " href="{{ route("cats.index") }}">Retour</a>
+	<a class="btn btn-danger " href="{{ route("cats.edit", $cat) }}">Editer</a>
 @endsection

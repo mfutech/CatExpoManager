@@ -43,14 +43,14 @@
 						</div>
 
 						<div class="form-group">
-							<label class="col-md-4 control-label">Password</label>
+							<label class="col-md-4 control-label">Mot de passe</label>
 							<div class="col-md-6">
 								<input type="password" class="form-control" name="password">
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-md-4 control-label">Confirm Password</label>
+							<label class="col-md-4 control-label">Confirmer le mot de apsse</label>
 							<div class="col-md-6">
 								<input type="password" class="form-control" name="password_confirmation">
 							</div>
@@ -73,7 +73,7 @@
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">
-									Register
+									S'Incrire
 								</button>
 							</div>
 						</div>

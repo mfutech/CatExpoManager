@@ -28,7 +28,7 @@ class CatsController extends Controller {
 	 */
 	public function index()
 	{
-		$cats = Cat::all();
+		$cats = Cat::usersCats()->get();
 		return view('cats.index', compact('cats'));
 	}
 
@@ -86,10 +86,17 @@ class CatsController extends Controller {
 	 */
 	public function update(Cat $cat)
 	{
-		$input = array_except(Input::all(), ['_method', '_token']);
-		$cat->update($input);
-		return Redirect::route('cats.show', $cat)->with('message', 'Donnée validée.');
+		if($cat->user_id == Auth::user()->id) {
+			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
+			$cat->update($input);
+			$mesg = 'Donnée validée.';
 
+		}
+		else {
+			$mesg = 'Modification interdite';
+		}
+
+		return Redirect::route('cats.show', $cat)->with('message', $mesg);
 	}
 
 	/**
@@ -100,7 +107,9 @@ class CatsController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+        return Redirect::route('cats.index')->with('message', 'Opération non supportée.');
+        //$expo->delete();
+        //return Redirect::route('cats.index')->with('message', 'Données effacée.');
 	}
 
 }

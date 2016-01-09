@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 use App\Registration;
+use Auth;
 
 class Cat extends Model {
 
@@ -20,7 +21,13 @@ class Cat extends Model {
     {
         return $this->user();
     }
+
+    public function scopeUsersCats($query)
+    {
+        return $query->where('user_id', '=', Auth::user()->id);
+    }
 }
+
 
 
 /*

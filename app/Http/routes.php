@@ -14,6 +14,7 @@
 // Provide controller methods with object instead of ID
 Route::model('expositions', 'App\Exposition');
 Route::model('cats', 'App\Cat');
+Route::model('registrations', 'App\Registration');
 
 // basic routing
 Route::get('/', 'WelcomeController@index');
@@ -29,9 +30,13 @@ Route::controllers([
 ]);
 
 Route::get('profile', ['uses' => 'ProfileController@index']);
+Route::get('registrations/register/{expo_id}', ['uses' => 'RegistrationsController@register']);
+
 
 // ressources
 Route::resource('expositions','ExpositionsController');
 Route::resource('cats', 'CatsController');
+Route::resource('registrations', 'RegistrationsController');
+
 //Route::resource('catteries', 'CatteriesController');
 

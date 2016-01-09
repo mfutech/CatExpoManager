@@ -1,7 +1,9 @@
 <?php namespace App\Http\Controllers;
 
+use App\Registration;
 use Input;
 use Redirect;
+use Auth;
 use App\Exposition;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -28,8 +30,10 @@ class ExpositionsController extends Controller {
 	 */
 	public function index()
 	{
+		$regexpos = Auth::user()->registrations()->get()->map(
+			function($r) { return $r->exposition_id; })->toArray();
 		$expos = Exposition::all();
-		return view('expositions.index', compact('expos'));
+		return view('expositions.index', compact('expos', 'regexpos'));
 	}
 
 	/**
@@ -57,7 +61,7 @@ class ExpositionsController extends Controller {
 	/**
 	 * Display the specified resource.
 	 *
-	 * @param  int  $id
+	 * @param  Exposition $expo
 	 * @return Response
 	 */
 	public function show(Exposition $expo)
@@ -68,7 +72,7 @@ class ExpositionsController extends Controller {
 	/**
 	 * Show the form for editing the specified resource.
 	 *
-	 * @param  int  $id
+	 * @param  Exposition $expo
 	 * @return Response
 	 */
 	public function edit(Exposition $expo)
@@ -79,7 +83,7 @@ class ExpositionsController extends Controller {
 	/**
 	 * Update the specified resource in storage.
 	 *
-	 * @param  int  $id
+	 * @param  Exposition $expo
 	 * @return Response
 	 */
 	public function update(Exposition $expo)
@@ -92,7 +96,7 @@ class ExpositionsController extends Controller {
 	/**
 	 * Remove the specified resource from storage.
 	 *
-	 * @param  int  $id
+	 * @param  Exposition $expo
 	 * @return Response
 	 */
 	public function destroy(Exposition $expo)

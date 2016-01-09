@@ -1,7 +1,7 @@
 @extends('page')
 
 @section('page_title')
-Liste des Chatteries enregistrées
+Liste des Chatteries enregistrï¿½es
 @endsection
 
 
@@ -9,7 +9,7 @@ Liste des Chatteries enregistrées
 <table class="table">
 	<tr>
 		<th>Chatterie</th>
-		<th>Propriétaire</th>
+		<th>Propriï¿½taire</th>
 		<th>WWW</th>
 		<th></th>
 	</tr>
@@ -23,7 +23,7 @@ Liste des Chatteries enregistrées
 			</td>
 			<td>{{ $cattery->url }} </td>
 			<td>
-				<a class="btn btn-info" href="{{ route("catteries.show", $cattery->id) }}">Détails</a>
+				<a class="btn btn-info" href="{{ route("catteries.show", $cattery->id) }}">Dï¿½tails</a>
 			</td>
 		</tr>
 	@endforeach

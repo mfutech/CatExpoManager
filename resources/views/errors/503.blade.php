@@ -34,7 +34,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Be right back.</div>
+				<div class="title">Pour le moment, le système est aux abonnés absents.</div>
 			</div>
 		</div>
 	</body>

@@ -4,5 +4,5 @@
 Bienvenue
 @endsection
 @section('page_content')
-	You are logged in!
+	Bienvenue sur le site du Cat Club, vous êtes identifié, vous avez accès aux différents services du Club.
 @endsection

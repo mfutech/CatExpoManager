@@ -33,7 +33,7 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Home</a></li>
+					<li><a href="{{ url('/') }}">Acceuil</a></li>
 					@if(!Auth::guest())
 						<li><a href="{{ url('/expositions') }}">Expositions</a>
 						<li><a href="{{ url('/cats') }}">Mes Chats</a>
@@ -43,7 +43,7 @@
 				<ul class="nav navbar-nav navbar-right	">
 					@if (Auth::guest())
 						<li><a href="{{ url('/auth/login') }}">Connexion</a></li>
-						<li><a href="{{ url('/auth/register') }}">Enregistrements</a></li>
+						<li><a href="{{ url('/auth/register') }}">Inscriptions</a></li>
 					@else
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 

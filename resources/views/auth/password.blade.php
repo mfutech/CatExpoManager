@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="panel panel-default">
-				<div class="panel-heading">Récupération de mot de passe</div>
+				<div class="panel-heading">RÃ©cupÃ©ration de mot de passe</div>
 				<div class="panel-body">
 					@if (session('status'))
 						<div class="alert alert-success">
@@ -15,7 +15,7 @@
 
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
-							<strong>Aïe Aïe Aïe!</strong> Il y a une erreur dans votre saisie.<br><br>
+							<strong>AÃ¯e AÃ¯e AÃ¯e!</strong> Il y a une erreur dans votre saisie.<br><br>
 							<ul>
 								@foreach ($errors->all() as $error)
 									<li>{{ $error }}</li>
@@ -37,7 +37,7 @@
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">
-									Il lien pour la remise à zéro de votre mot de passe va vous être envoyé
+									Il lien pour la recupÃ©ration de votre mot de passe va vous Ãªtre envoyÃ©
 								</button>
 							</div>
 						</div>

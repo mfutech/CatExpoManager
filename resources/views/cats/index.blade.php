@@ -1,12 +1,23 @@
 @extends('page')
 
 @section('page_title')
-Liste des vos Chats
+Liste de mes Chats
 @endsection
 
 
 @section('page_content')
-<table class="table">
+
+	<script>
+		$(document).ready(function(){
+			$('#cat-table').DataTable({
+				"paging":   true,
+				"ordering": true,
+				"order": [[1, "desc"]],
+				"info":     true
+			});}
+		);
+	</script>
+<table class="table" id="cat-table">
 	<tr>
 		<th>Nom</th>
 		<th>Date de N.</th>

@@ -3,6 +3,7 @@
 use Auth;
 use Input;
 use Redirect;
+use Gate;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -39,7 +40,8 @@ class CatsController extends Controller {
 	 */
 	public function create()
 	{
-		return view('cats.create');
+		$cat = new Cat;
+		return view('cats.create', compact('cat'));
 	}
 
 	/**
@@ -53,7 +55,7 @@ class CatsController extends Controller {
 		$cat = Cat::create( $input );
 		$cat->owner()->associate(Auth::user());
 		$cat->save();
-		return Redirect::route('cats.index')->with('message', 'Chat ajouté');
+		return Redirect::route('cats.index')->with('message', 'Chat ajoutÃ©');
 	}
 
 	/**
@@ -89,7 +91,7 @@ class CatsController extends Controller {
 		if($cat->user_id == Auth::user()->id) {
 			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
 			$cat->update($input);
-			$mesg = 'Donnée validée.';
+			$mesg = 'Donnï¿½e validï¿½e.';
 
 		}
 		else {
@@ -107,9 +109,9 @@ class CatsController extends Controller {
 	 */
 	public function destroy($id)
 	{
-        return Redirect::route('cats.index')->with('message', 'Opération non supportée.');
+        return Redirect::route('cats.index')->with('message', 'Opï¿½ration non supportï¿½e.');
         //$expo->delete();
-        //return Redirect::route('cats.index')->with('message', 'Données effacée.');
+        //return Redirect::route('cats.index')->with('message', 'Donnï¿½es effacï¿½e.');
 	}
 
 }

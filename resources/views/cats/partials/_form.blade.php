@@ -1,22 +1,17 @@
 
-<div class="form-group">
-    {!! Form::label('name', 'Nom:', [ 'class' => 'col-md-10']) !!}
-    {!! Form::text('name') !!}
-</div>
-<div class="form-group">
-    {!! Form::label('race', 'Race:', [ 'class' => 'col-sm-10']) !!}
-    {!! Form::text('race') !!}
-</div>
-<div class="form-group">
-    {!! Form::label('color', 'Couleur:', [ 'class' => 'col-sm-10']) !!}
-    {!! Form::text('color') !!}
-</div>
+{!!	BootForm::open(['model'=>$cat, 'update' => 'cats.update', 'store'=> 'cats.store']) !!}
 
-<div class="form-group">
-    {!! Form::label('birthdate', 'N&eacute;(e) le:', [ 'class' => 'col-sm-10']) !!}
-    {!! Form::input('birthdate', 'birthdate', null, array('type' => 'Date', 'placeholder' => 'N�(e) Le' )) !!}
-</div>
+{!!	BootForm::text('name', 'Nom:', null, $options ) !!}
+{!! BootForm::text('race', 'Race:', null, $options ) !!}
+{!! BootForm::text('color', 'Couleur:', null, $options ) !!}
+{!! BootForm::text('birthdate', 'N&eacute;(e) le:', null, $options ) !!}
+{!! BootForm::text('eyes_color', 'Couleur des yeux:', null, $options ) !!}
+{!! BootForm::text('origin_book', 'Livre des origines:', null, $options ) !!}
+{!! BootForm::text('breeder', 'Eleveur:', null, $options ) !!}
+{!! BootForm::text('father', 'Père:', null, $options ) !!}
+{!! BootForm::text('mother', 'Mère:', null, $options ) !!}
 
-<div class="form-group">
-    {!! Form::submit($submit_text, ['class'=>'btn btn-primary col-sm-10']) !!}
-</div>
+@if($submit_text)
+{!! BootForm::submit($submit_text) !!}
+@endif
+{!!	BootForm::close() !!}

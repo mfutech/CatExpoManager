@@ -37,7 +37,7 @@
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">
-									Il lien pour la recupération de votre mot de passe va vous être envoyé
+									Le lien pour la recupération de votre mot de passe va vous être envoyé
 								</button>
 							</div>
 						</div>

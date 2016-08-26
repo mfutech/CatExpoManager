@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'debug' => true, //env('APP_DEBUG'),
+	'debug' => env('APP_DEBUG'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -147,8 +147,9 @@ return [
 		/*
 		 * Extra helpers
 		 */
-		//https://www.flynsarmy.com/2015/02/install-illuminatehtml-laravel-5/
-		'Illuminate\Html\HtmlServiceProvider',
+		Collective\Html\HtmlServiceProvider::class,
+		Watson\BootstrapForm\BootstrapFormServiceProvider::class,
+
 	],
 
 	/*
@@ -198,8 +199,9 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 
-		'Form'=> 'Illuminate\Html\FormFacade', 
-		'HTML'=> 'Illuminate\Html\HtmlFacade',
+		'Form' => Collective\Html\FormFacade::class,
+		'Html' => Collective\Html\HtmlFacade::class,
+		'BootForm' => Watson\BootstrapForm\Facades\BootstrapForm::class,
 	],
 
 ];

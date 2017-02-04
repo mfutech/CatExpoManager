@@ -6,7 +6,7 @@ use Auth;
 
 class Cat extends Model {
 
-    protected $fillable = [ 
+    protected $fillable = [
         'name', 'race', 'color', 'birthdate',
         'eyes_color', 'origin_book', 'breeder', 'father', 'mother'
     ];

@@ -21,7 +21,7 @@ class CatsController extends Controller {
 		// requires authentication
 		$this->middleware('auth');
 	}
-	
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -91,7 +91,7 @@ class CatsController extends Controller {
 		if($cat->user_id == Auth::user()->id) {
 			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
 			$cat->update($input);
-			$mesg = 'Donn�e valid�e.';
+			$mesg = 'Donnée validée.';
 
 		}
 		else {
@@ -109,9 +109,9 @@ class CatsController extends Controller {
 	 */
 	public function destroy($id)
 	{
-        return Redirect::route('cats.index')->with('message', 'Op�ration non support�e.');
+        return Redirect::route('cats.index')->with('message', 'Opération non supportée.');
         //$expo->delete();
-        //return Redirect::route('cats.index')->with('message', 'Donn�es effac�e.');
+        //return Redirect::route('cats.index')->with('message', 'Données effacée.');
 	}
 
 }

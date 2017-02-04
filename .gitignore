@@ -1,6 +1,7 @@
 /bootstrap/compiled.php
 .env.*.php
 .env.php
+*_DIS
 /vendor
 /node_modules
 .env

@@ -40,3 +40,10 @@ Route::resource('registrations', 'RegistrationsController');
 
 //Route::resource('catteries', 'CatteriesController');
 
+//utils
+Route::get('pleasedo-migrate', function() {
+
+      echo '<br>init with Migrate tables ...';
+      Artisan::call('migrate', ['--quiet' => false, '--force' => false]);
+      echo '<br>done with Migrate tables';
+});

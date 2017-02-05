@@ -5,9 +5,9 @@
 /vendor
 /node_modules
 .env
+.env-*
 /storage
 .buildpath
 .project
 .settings
 .idea
-

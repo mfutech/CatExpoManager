@@ -22,7 +22,7 @@
 <body background='http://www.catclubdegeneve.ch/images/center.jpg'>
 <div class="container">
 <table border="0" width="100%">
-  <tr valign="top"> 
+  <tr valign="top">
     <td height="197"><img src="http://www.catclubdegeneve.ch/index/top.jpg" width="827" height="212"></td>
     <td height="197"><br>
       <img src="http://www.catclubdegeneve.ch/index/logo.jpg" width="173" height="169"> </td>
@@ -42,9 +42,11 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Acceuil</a></li>
-					@if(!Auth::guest())
-					    <li><a href="{{ url('/expositions') }}">Expositions</a>
+					@if(Auth::guest())
+						<li><a href="{{ url('/') }}">Acceuil</a></li>
+					@else
+						<li><a href="{{ url('/home') }}">Acceuil</a></li>
+					  <li><a href="{{ url('/expositions') }}">Expositions</a>
 						<li><a href="{{ url('/cats') }}">Mes Chats</a>
 					@endif
 				</ul>
@@ -62,7 +64,7 @@
 		</div>
 	</nav>
 </div>
-	
+
 	@yield('content')
 
 	<!-- Scripts -->

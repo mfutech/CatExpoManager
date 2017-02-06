@@ -4,7 +4,7 @@
 </div>
 <div class="form-group">
     {!! Form::label('start', 'D&eacute;bute le:') !!}
-    {!! Form::input('date', 'start', null, array('type' => 'Date', 'placeholder' => 'Date' )) !!}
+    {!! Form::input('date', 'start', null, array('type' => 'Date', 'placeholder' => 'Date', 'data-provider' => 'datepicker' )) !!}
     {!! Form::label('end', 'Fin le:') !!}
     {!! Form::input('date', 'end', null, array('type' => 'Date', 'placeholder' => 'Date' )) !!}
     {!! Form::label('open_till', 'Inscription jusqu\'au:') !!}

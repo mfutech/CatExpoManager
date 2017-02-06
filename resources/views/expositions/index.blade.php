@@ -31,10 +31,10 @@ Liste des Exposition du Cat Club
 		</tr>
 	@endforeach
 </table>
-<pre> {{ var_dump($regexpos) }}</pre>
+{{-- <pre> {{ var_dump($regexpos) }}</pre> --}}
 @endsection
 
-<!--
+{{--
 @section('page_content')
 	<div class="list-group">
 	@foreach( $expos as $expo)
@@ -52,4 +52,4 @@ Liste des Exposition du Cat Club
 	@endforeach
 	</div>
 @endsection
--->
+--}}

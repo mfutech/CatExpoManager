@@ -1,0 +1,357 @@
+-- MySQL dump 10.13  Distrib 5.7.16, for Linux (x86_64)
+--
+-- Host: localhost    Database: homestead
+-- ------------------------------------------------------
+-- Server version	5.7.16-0ubuntu0.16.04.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `breeds`
+--
+
+DROP TABLE IF EXISTS `breeds`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `breeds` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `breed_code` varchar(5) COLLATE utf8_unicode_ci NOT NULL,
+  `breed` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `breeds`
+--
+
+LOCK TABLES `breeds` WRITE;
+/*!40000 ALTER TABLE `breeds` DISABLE KEYS */;
+/*!40000 ALTER TABLE `breeds` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cat_registration`
+--
+
+DROP TABLE IF EXISTS `cat_registration`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `cat_registration` (
+  `cat_id` int(11) NOT NULL,
+  `registration_id` int(11) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cat_registration`
+--
+
+LOCK TABLES `cat_registration` WRITE;
+/*!40000 ALTER TABLE `cat_registration` DISABLE KEYS */;
+/*!40000 ALTER TABLE `cat_registration` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `catregistrations`
+--
+
+DROP TABLE IF EXISTS `catregistrations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `catregistrations` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `registration_id` int(11) NOT NULL,
+  `cat_id` int(11) NOT NULL,
+  `category_day1` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `category_day2` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `category_speciale_day1` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `category_speciale_day2` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `catregistrations`
+--
+
+LOCK TABLES `catregistrations` WRITE;
+/*!40000 ALTER TABLE `catregistrations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `catregistrations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cats`
+--
+
+DROP TABLE IF EXISTS `cats`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `cats` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `race` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `color` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `birthdate` date NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `eyes_color` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `origin_book` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `breeder` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `father` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `mother` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cats`
+--
+
+LOCK TABLES `cats` WRITE;
+/*!40000 ALTER TABLE `cats` DISABLE KEYS */;
+INSERT INTO `cats` VALUES (1,1,'Max','Neva','Seal Tabby','2031-07-20','2017-02-05 00:41:20','2017-02-05 00:43:26','bleu','LOS 10299201','M & M ','sdfsasdfasdf','asdfasdf');
+/*!40000 ALTER TABLE `cats` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `coat_colors`
+--
+
+DROP TABLE IF EXISTS `coat_colors`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `coat_colors` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `color` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `coat_colors`
+--
+
+LOCK TABLES `coat_colors` WRITE;
+/*!40000 ALTER TABLE `coat_colors` DISABLE KEYS */;
+/*!40000 ALTER TABLE `coat_colors` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `expositions`
+--
+
+DROP TABLE IF EXISTS `expositions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `expositions` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `start` date NOT NULL,
+  `end` date NOT NULL,
+  `open_till` date NOT NULL,
+  `city` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `url` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `subscription_open` tinyint(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `expositions`
+--
+
+LOCK TABLES `expositions` WRITE;
+/*!40000 ALTER TABLE `expositions` DISABLE KEYS */;
+INSERT INTO `expositions` VALUES (1,'2017-02-05 17:43:02','2017-02-05 17:43:02','','0000-00-00','0000-00-00','0000-00-00','','','',0),(2,'2017-03-22 21:15:38','2017-03-22 21:17:40','Crissier 2017','2017-05-13','2017-05-14','0000-00-00','','','',1);
+/*!40000 ALTER TABLE `expositions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `migrations`
+--
+
+DROP TABLE IF EXISTS `migrations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `migrations` (
+  `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `migrations`
+--
+
+LOCK TABLES `migrations` WRITE;
+/*!40000 ALTER TABLE `migrations` DISABLE KEYS */;
+INSERT INTO `migrations` VALUES ('2014_10_12_000000_create_users_table',1),('2014_10_12_100000_create_password_resets_table',1),('2015_04_03_220551_create_expositions_table',1),('2015_09_05_163737_add_exposant_attributes',1),('2015_09_07_224102_create_cats_table',1),('2015_09_08_002736_create_coat_colors_table',1),('2015_09_08_003314_create_breeds_table',1),('2015_09_09_010202_user_add_address',1),('2015_09_09_235808_create_registrations_table',1),('2015_09_10_000008_create_cat_registration_table',1),('2015_09_14_231023_user_add_admin_right',1),('2016_02_18_012728_create_results_table',1),('2016_08_25_004605_cats_add_all_informations',1),('2016_08_25_205118_users_informations',1),('2017_03_24_184430_cat_registration',2);
+/*!40000 ALTER TABLE `migrations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `password_resets`
+--
+
+DROP TABLE IF EXISTS `password_resets`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `password_resets` (
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  KEY `password_resets_email_index` (`email`),
+  KEY `password_resets_token_index` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `password_resets`
+--
+
+LOCK TABLES `password_resets` WRITE;
+/*!40000 ALTER TABLE `password_resets` DISABLE KEYS */;
+INSERT INTO `password_resets` VALUES ('marc@tribufufu.net','de68ad5c7d368f5c1965e1a7be01791592dc6c734d16a4c761bb02c51d3597a9','2017-03-22 20:51:49');
+/*!40000 ALTER TABLE `password_resets` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `registrations`
+--
+
+DROP TABLE IF EXISTS `registrations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `registrations` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `exposition_id` int(11) NOT NULL,
+  `status` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `confirmed` tinyint(1) NOT NULL,
+  `payed` tinyint(1) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `registrations`
+--
+
+LOCK TABLES `registrations` WRITE;
+/*!40000 ALTER TABLE `registrations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `registrations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `results`
+--
+
+DROP TABLE IF EXISTS `results`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `results` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `exposition` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `date` date NOT NULL,
+  `days` int(11) NOT NULL,
+  `CAC` int(11) NOT NULL,
+  `CACI` int(11) NOT NULL,
+  `CAGCI` int(11) NOT NULL,
+  `CACE` int(11) NOT NULL,
+  `CAGCE` int(11) NOT NULL,
+  `judgment1` blob NOT NULL,
+  `judgment2` blob NOT NULL,
+  `validated` tinyint(1) NOT NULL,
+  `judge1` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `judge2` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `results`
+--
+
+LOCK TABLES `results` WRITE;
+/*!40000 ALTER TABLE `results` DISABLE KEYS */;
+/*!40000 ALTER TABLE `results` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `phone` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `url` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `firstname` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `lastname` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `affiliation` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `is_exposant` tinyint(1) NOT NULL,
+  `address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `CP_city` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `country` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `is_admin` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `is_clubmanager` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `club` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `users_email_unique` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (1,'','marc@tribufufu.net','$2y$10$FUWJ1PQVLDUJxQInAea5s.uVgxEluxG1bVPsIb2u/gnlkyC3J7u1W','MDxcNZVS2jCNFBfEjPrmXdNUO4RHgjN2FdLyuQijrlAzlb8qb6HZqUZkktZv','2017-02-05 00:40:05','2017-03-22 20:57:57','021 000 0000','','Marc','Furrer','ccg',0,'','','','1','1',''),(2,'','marc2@tribufufu.net','$2y$10$1hXP.o/i0MkFyfeqPGjB8eePPKBwox63wULfO8wjmgfSQkKWI6oIu',NULL,'2017-02-05 21:15:16','2017-02-05 21:18:33','','','Marc2','Furrrer','CCG',0,'','','','','','');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-06-16 18:20:32

@@ -149,6 +149,7 @@ return [
 		 */
 		Collective\Html\HtmlServiceProvider::class,
 		Watson\BootstrapForm\BootstrapFormServiceProvider::class,
+		Arcanedev\Localization\LocalizationServiceProvider::class,
 
 	],
 

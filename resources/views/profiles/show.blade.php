@@ -11,4 +11,6 @@
 	<li class="list-group-item">{{ $user->affiliation }}</li>
 	<li class="list-group-item"><a href="{{$user->url}}">{{ $user->url }}</a></li>
 </ul>
+
+{{ trans('password') }}
 @endsection

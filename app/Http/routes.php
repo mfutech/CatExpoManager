@@ -14,6 +14,14 @@
 /*
  * Localized ressources
  */
+
+Route::localizedGroup(function () {
+
+	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+
+	Route::resource('test','testController');
+});
+
  // Route::localizedGroup(function () {
 
 	// Provide controller methods with object instead of ID

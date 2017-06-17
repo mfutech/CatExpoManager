@@ -9,7 +9,7 @@ return [
 
     'accept-language-header' => true,
 
-    'hide-default-in-url'    => false,
+    'hide-default-in-url'    => true,
 
     'facade'                 => 'Localization',
 
@@ -20,7 +20,7 @@ return [
     'route'                  => [
         'middleware' => [
             'localization-session-redirect' => true,
-            'localization-cookie-redirect'  => false,
+            'localization-cookie-redirect'  => true,
             'localization-redirect'         => true,
             'localized-routes'              => true,
             'translation-redirect'          => true,

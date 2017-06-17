@@ -1,0 +1,1416 @@
+./app/Breed.php
+No syntax errors detected in ./app/Breed.php
+./app/Cat.php
+No syntax errors detected in ./app/Cat.php
+./app/CatRegistration.php
+No syntax errors detected in ./app/CatRegistration.php
+./app/Cattery.php
+No syntax errors detected in ./app/Cattery.php
+./app/Coat.php
+No syntax errors detected in ./app/Coat.php
+./app/CoatColor.php
+No syntax errors detected in ./app/CoatColor.php
+./app/Commands/Command.php
+No syntax errors detected in ./app/Commands/Command.php
+./app/Console/Commands/Inspire.php
+No syntax errors detected in ./app/Console/Commands/Inspire.php
+./app/Console/Kernel.php
+No syntax errors detected in ./app/Console/Kernel.php
+./app/Events/Event.php
+No syntax errors detected in ./app/Events/Event.php
+./app/Exceptions/Handler.php
+No syntax errors detected in ./app/Exceptions/Handler.php
+./app/Exposition.php
+No syntax errors detected in ./app/Exposition.php
+./app/Fur.php
+No syntax errors detected in ./app/Fur.php
+./app/Http/Controllers/Auth/AuthController.php
+No syntax errors detected in ./app/Http/Controllers/Auth/AuthController.php
+./app/Http/Controllers/Auth/PasswordController.php
+No syntax errors detected in ./app/Http/Controllers/Auth/PasswordController.php
+./app/Http/Controllers/CatsController.php
+No syntax errors detected in ./app/Http/Controllers/CatsController.php
+./app/Http/Controllers/CatteriesController.php
+No syntax errors detected in ./app/Http/Controllers/CatteriesController.php
+./app/Http/Controllers/Controller.php
+No syntax errors detected in ./app/Http/Controllers/Controller.php
+./app/Http/Controllers/ExpositionsController.php
+No syntax errors detected in ./app/Http/Controllers/ExpositionsController.php
+./app/Http/Controllers/HomeController.php
+No syntax errors detected in ./app/Http/Controllers/HomeController.php
+./app/Http/Controllers/ProfileController.php
+No syntax errors detected in ./app/Http/Controllers/ProfileController.php
+./app/Http/Controllers/RegistrationsController.php
+No syntax errors detected in ./app/Http/Controllers/RegistrationsController.php
+./app/Http/Controllers/SimpleRegistrationController.php
+No syntax errors detected in ./app/Http/Controllers/SimpleRegistrationController.php
+./app/Http/Controllers/testController.php
+No syntax errors detected in ./app/Http/Controllers/testController.php
+./app/Http/Controllers/WelcomeController.php
+No syntax errors detected in ./app/Http/Controllers/WelcomeController.php
+./app/Http/Kernel.php
+No syntax errors detected in ./app/Http/Kernel.php
+./app/Http/Middleware/Authenticate.php
+No syntax errors detected in ./app/Http/Middleware/Authenticate.php
+./app/Http/Middleware/RedirectIfAuthenticated.php
+No syntax errors detected in ./app/Http/Middleware/RedirectIfAuthenticated.php
+./app/Http/Middleware/VerifyCsrfToken.php
+No syntax errors detected in ./app/Http/Middleware/VerifyCsrfToken.php
+./app/Http/Requests/Request.php
+No syntax errors detected in ./app/Http/Requests/Request.php
+./app/Http/routes.php
+No syntax errors detected in ./app/Http/routes.php
+./app/Providers/AppServiceProvider.php
+No syntax errors detected in ./app/Providers/AppServiceProvider.php
+./app/Providers/BusServiceProvider.php
+No syntax errors detected in ./app/Providers/BusServiceProvider.php
+./app/Providers/ConfigServiceProvider.php
+No syntax errors detected in ./app/Providers/ConfigServiceProvider.php
+./app/Providers/EventServiceProvider.php
+No syntax errors detected in ./app/Providers/EventServiceProvider.php
+./app/Providers/RouteServiceProvider.php
+No syntax errors detected in ./app/Providers/RouteServiceProvider.php
+./app/Registration.php
+No syntax errors detected in ./app/Registration.php
+./app/Result.php
+No syntax errors detected in ./app/Result.php
+./app/User.php
+No syntax errors detected in ./app/User.php
+./bootstrap/app.php
+No syntax errors detected in ./bootstrap/app.php
+./bootstrap/autoload.php
+No syntax errors detected in ./bootstrap/autoload.php
+./bootstrap/cache/services.php
+No syntax errors detected in ./bootstrap/cache/services.php
+./config/app.php
+No syntax errors detected in ./config/app.php
+./config/auth.php
+No syntax errors detected in ./config/auth.php
+./config/bootstrap_form.php
+No syntax errors detected in ./config/bootstrap_form.php
+./config/cache.php
+No syntax errors detected in ./config/cache.php
+./config/compile.php
+No syntax errors detected in ./config/compile.php
+./config/database.php
+No syntax errors detected in ./config/database.php
+./config/filesystems.php
+No syntax errors detected in ./config/filesystems.php
+./config/localization.php
+No syntax errors detected in ./config/localization.php
+./config/mail.php
+No syntax errors detected in ./config/mail.php
+./config/queue.php
+No syntax errors detected in ./config/queue.php
+./config/services.php
+No syntax errors detected in ./config/services.php
+./config/session.php
+No syntax errors detected in ./config/session.php
+./config/vendor/autoload.php
+No syntax errors detected in ./config/vendor/autoload.php
+./config/vendor/barryvdh/laravel-translation-manager/config/translation-manager.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/config/translation-manager.php
+./config/vendor/barryvdh/laravel-translation-manager/database/migrations/2014_04_02_193005_create_translations_table.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/database/migrations/2014_04_02_193005_create_translations_table.php
+./config/vendor/barryvdh/laravel-translation-manager/resources/views/index.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/resources/views/index.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Console/CleanCommand.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Console/CleanCommand.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Console/ExportCommand.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Console/ExportCommand.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Console/FindCommand.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Console/FindCommand.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Console/ImportCommand.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Console/ImportCommand.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Console/ResetCommand.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Console/ResetCommand.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Controller.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Controller.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Manager.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Manager.php
+./config/vendor/barryvdh/laravel-translation-manager/src/ManagerServiceProvider.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/ManagerServiceProvider.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Models/Translation.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Models/Translation.php
+./config/vendor/barryvdh/laravel-translation-manager/src/TranslationServiceProvider.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/TranslationServiceProvider.php
+./config/vendor/barryvdh/laravel-translation-manager/src/Translator.php
+No syntax errors detected in ./config/vendor/barryvdh/laravel-translation-manager/src/Translator.php
+./config/vendor/composer/autoload_classmap.php
+No syntax errors detected in ./config/vendor/composer/autoload_classmap.php
+./config/vendor/composer/autoload_files.php
+No syntax errors detected in ./config/vendor/composer/autoload_files.php
+./config/vendor/composer/autoload_namespaces.php
+No syntax errors detected in ./config/vendor/composer/autoload_namespaces.php
+./config/vendor/composer/autoload_psr4.php
+No syntax errors detected in ./config/vendor/composer/autoload_psr4.php
+./config/vendor/composer/autoload_real.php
+No syntax errors detected in ./config/vendor/composer/autoload_real.php
+./config/vendor/composer/autoload_static.php
+No syntax errors detected in ./config/vendor/composer/autoload_static.php
+./config/vendor/composer/ClassLoader.php
+No syntax errors detected in ./config/vendor/composer/ClassLoader.php
+./config/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php
+No syntax errors detected in ./config/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php
+./config/vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php
+No syntax errors detected in ./config/vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php
+./config/vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php
+No syntax errors detected in ./config/vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php
+./config/vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php
+No syntax errors detected in ./config/vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php
+./config/vendor/illuminate/contracts/Auth/Access/Authorizable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/Access/Authorizable.php
+./config/vendor/illuminate/contracts/Auth/Access/Gate.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/Access/Gate.php
+./config/vendor/illuminate/contracts/Auth/Authenticatable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/Authenticatable.php
+./config/vendor/illuminate/contracts/Auth/CanResetPassword.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/CanResetPassword.php
+./config/vendor/illuminate/contracts/Auth/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/Factory.php
+./config/vendor/illuminate/contracts/Auth/Guard.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/Guard.php
+./config/vendor/illuminate/contracts/Auth/PasswordBroker.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/PasswordBroker.php
+./config/vendor/illuminate/contracts/Auth/PasswordBrokerFactory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/PasswordBrokerFactory.php
+./config/vendor/illuminate/contracts/Auth/StatefulGuard.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/StatefulGuard.php
+./config/vendor/illuminate/contracts/Auth/SupportsBasicAuth.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/SupportsBasicAuth.php
+./config/vendor/illuminate/contracts/Auth/UserProvider.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Auth/UserProvider.php
+./config/vendor/illuminate/contracts/Broadcasting/Broadcaster.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Broadcasting/Broadcaster.php
+./config/vendor/illuminate/contracts/Broadcasting/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Broadcasting/Factory.php
+./config/vendor/illuminate/contracts/Broadcasting/ShouldBroadcast.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Broadcasting/ShouldBroadcast.php
+./config/vendor/illuminate/contracts/Broadcasting/ShouldBroadcastNow.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Broadcasting/ShouldBroadcastNow.php
+./config/vendor/illuminate/contracts/Bus/Dispatcher.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Bus/Dispatcher.php
+./config/vendor/illuminate/contracts/Bus/QueueingDispatcher.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Bus/QueueingDispatcher.php
+./config/vendor/illuminate/contracts/Cache/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Cache/Factory.php
+./config/vendor/illuminate/contracts/Cache/Repository.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Cache/Repository.php
+./config/vendor/illuminate/contracts/Cache/Store.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Cache/Store.php
+./config/vendor/illuminate/contracts/Config/Repository.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Config/Repository.php
+./config/vendor/illuminate/contracts/Console/Application.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Console/Application.php
+./config/vendor/illuminate/contracts/Console/Kernel.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Console/Kernel.php
+./config/vendor/illuminate/contracts/Container/BindingResolutionException.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Container/BindingResolutionException.php
+./config/vendor/illuminate/contracts/Container/Container.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Container/Container.php
+./config/vendor/illuminate/contracts/Container/ContextualBindingBuilder.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Container/ContextualBindingBuilder.php
+./config/vendor/illuminate/contracts/Cookie/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Cookie/Factory.php
+./config/vendor/illuminate/contracts/Cookie/QueueingFactory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Cookie/QueueingFactory.php
+./config/vendor/illuminate/contracts/Database/ModelIdentifier.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Database/ModelIdentifier.php
+./config/vendor/illuminate/contracts/Debug/ExceptionHandler.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Debug/ExceptionHandler.php
+./config/vendor/illuminate/contracts/Encryption/DecryptException.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Encryption/DecryptException.php
+./config/vendor/illuminate/contracts/Encryption/Encrypter.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Encryption/Encrypter.php
+./config/vendor/illuminate/contracts/Encryption/EncryptException.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Encryption/EncryptException.php
+./config/vendor/illuminate/contracts/Events/Dispatcher.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Events/Dispatcher.php
+./config/vendor/illuminate/contracts/Filesystem/Cloud.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Filesystem/Cloud.php
+./config/vendor/illuminate/contracts/Filesystem/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Filesystem/Factory.php
+./config/vendor/illuminate/contracts/Filesystem/FileNotFoundException.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Filesystem/FileNotFoundException.php
+./config/vendor/illuminate/contracts/Filesystem/Filesystem.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Filesystem/Filesystem.php
+./config/vendor/illuminate/contracts/Foundation/Application.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Foundation/Application.php
+./config/vendor/illuminate/contracts/Hashing/Hasher.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Hashing/Hasher.php
+./config/vendor/illuminate/contracts/Http/Kernel.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Http/Kernel.php
+./config/vendor/illuminate/contracts/Logging/Log.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Logging/Log.php
+./config/vendor/illuminate/contracts/Mail/Mailable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Mail/Mailable.php
+./config/vendor/illuminate/contracts/Mail/Mailer.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Mail/Mailer.php
+./config/vendor/illuminate/contracts/Mail/MailQueue.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Mail/MailQueue.php
+./config/vendor/illuminate/contracts/Notifications/Dispatcher.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Notifications/Dispatcher.php
+./config/vendor/illuminate/contracts/Notifications/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Notifications/Factory.php
+./config/vendor/illuminate/contracts/Pagination/LengthAwarePaginator.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Pagination/LengthAwarePaginator.php
+./config/vendor/illuminate/contracts/Pagination/Paginator.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Pagination/Paginator.php
+./config/vendor/illuminate/contracts/Pipeline/Hub.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Pipeline/Hub.php
+./config/vendor/illuminate/contracts/Pipeline/Pipeline.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Pipeline/Pipeline.php
+./config/vendor/illuminate/contracts/Queue/EntityNotFoundException.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/EntityNotFoundException.php
+./config/vendor/illuminate/contracts/Queue/EntityResolver.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/EntityResolver.php
+./config/vendor/illuminate/contracts/Queue/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/Factory.php
+./config/vendor/illuminate/contracts/Queue/Job.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/Job.php
+./config/vendor/illuminate/contracts/Queue/Monitor.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/Monitor.php
+./config/vendor/illuminate/contracts/Queue/Queue.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/Queue.php
+./config/vendor/illuminate/contracts/Queue/QueueableCollection.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/QueueableCollection.php
+./config/vendor/illuminate/contracts/Queue/QueueableEntity.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/QueueableEntity.php
+./config/vendor/illuminate/contracts/Queue/ShouldQueue.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Queue/ShouldQueue.php
+./config/vendor/illuminate/contracts/Redis/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Redis/Factory.php
+./config/vendor/illuminate/contracts/Routing/BindingRegistrar.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Routing/BindingRegistrar.php
+./config/vendor/illuminate/contracts/Routing/Registrar.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Routing/Registrar.php
+./config/vendor/illuminate/contracts/Routing/ResponseFactory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Routing/ResponseFactory.php
+./config/vendor/illuminate/contracts/Routing/UrlGenerator.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Routing/UrlGenerator.php
+./config/vendor/illuminate/contracts/Routing/UrlRoutable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Routing/UrlRoutable.php
+./config/vendor/illuminate/contracts/Session/Session.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Session/Session.php
+./config/vendor/illuminate/contracts/Support/Arrayable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Support/Arrayable.php
+./config/vendor/illuminate/contracts/Support/Htmlable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Support/Htmlable.php
+./config/vendor/illuminate/contracts/Support/Jsonable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Support/Jsonable.php
+./config/vendor/illuminate/contracts/Support/MessageBag.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Support/MessageBag.php
+./config/vendor/illuminate/contracts/Support/MessageProvider.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Support/MessageProvider.php
+./config/vendor/illuminate/contracts/Support/Renderable.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Support/Renderable.php
+./config/vendor/illuminate/contracts/Translation/Translator.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Translation/Translator.php
+./config/vendor/illuminate/contracts/Validation/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Validation/Factory.php
+./config/vendor/illuminate/contracts/Validation/ValidatesWhenResolved.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Validation/ValidatesWhenResolved.php
+./config/vendor/illuminate/contracts/Validation/Validator.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/Validation/Validator.php
+./config/vendor/illuminate/contracts/View/Factory.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/View/Factory.php
+./config/vendor/illuminate/contracts/View/View.php
+No syntax errors detected in ./config/vendor/illuminate/contracts/View/View.php
+./config/vendor/illuminate/filesystem/Filesystem.php
+No syntax errors detected in ./config/vendor/illuminate/filesystem/Filesystem.php
+./config/vendor/illuminate/filesystem/FilesystemAdapter.php
+No syntax errors detected in ./config/vendor/illuminate/filesystem/FilesystemAdapter.php
+./config/vendor/illuminate/filesystem/FilesystemManager.php
+No syntax errors detected in ./config/vendor/illuminate/filesystem/FilesystemManager.php
+./config/vendor/illuminate/filesystem/FilesystemServiceProvider.php
+No syntax errors detected in ./config/vendor/illuminate/filesystem/FilesystemServiceProvider.php
+./config/vendor/illuminate/support/AggregateServiceProvider.php
+No syntax errors detected in ./config/vendor/illuminate/support/AggregateServiceProvider.php
+./config/vendor/illuminate/support/Arr.php
+No syntax errors detected in ./config/vendor/illuminate/support/Arr.php
+./config/vendor/illuminate/support/Collection.php
+No syntax errors detected in ./config/vendor/illuminate/support/Collection.php
+./config/vendor/illuminate/support/Composer.php
+No syntax errors detected in ./config/vendor/illuminate/support/Composer.php
+./config/vendor/illuminate/support/Debug/Dumper.php
+No syntax errors detected in ./config/vendor/illuminate/support/Debug/Dumper.php
+./config/vendor/illuminate/support/Debug/HtmlDumper.php
+No syntax errors detected in ./config/vendor/illuminate/support/Debug/HtmlDumper.php
+./config/vendor/illuminate/support/Facades/App.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/App.php
+./config/vendor/illuminate/support/Facades/Artisan.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Artisan.php
+./config/vendor/illuminate/support/Facades/Auth.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Auth.php
+./config/vendor/illuminate/support/Facades/Blade.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Blade.php
+./config/vendor/illuminate/support/Facades/Broadcast.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Broadcast.php
+./config/vendor/illuminate/support/Facades/Bus.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Bus.php
+./config/vendor/illuminate/support/Facades/Cache.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Cache.php
+./config/vendor/illuminate/support/Facades/Config.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Config.php
+./config/vendor/illuminate/support/Facades/Cookie.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Cookie.php
+./config/vendor/illuminate/support/Facades/Crypt.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Crypt.php
+./config/vendor/illuminate/support/Facades/DB.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/DB.php
+./config/vendor/illuminate/support/Facades/Event.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Event.php
+./config/vendor/illuminate/support/Facades/Facade.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Facade.php
+./config/vendor/illuminate/support/Facades/File.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/File.php
+./config/vendor/illuminate/support/Facades/Gate.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Gate.php
+./config/vendor/illuminate/support/Facades/Hash.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Hash.php
+./config/vendor/illuminate/support/Facades/Input.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Input.php
+./config/vendor/illuminate/support/Facades/Lang.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Lang.php
+./config/vendor/illuminate/support/Facades/Log.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Log.php
+./config/vendor/illuminate/support/Facades/Mail.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Mail.php
+./config/vendor/illuminate/support/Facades/Notification.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Notification.php
+./config/vendor/illuminate/support/Facades/Password.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Password.php
+./config/vendor/illuminate/support/Facades/Queue.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Queue.php
+./config/vendor/illuminate/support/Facades/Redirect.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Redirect.php
+./config/vendor/illuminate/support/Facades/Redis.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Redis.php
+./config/vendor/illuminate/support/Facades/Request.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Request.php
+./config/vendor/illuminate/support/Facades/Response.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Response.php
+./config/vendor/illuminate/support/Facades/Route.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Route.php
+./config/vendor/illuminate/support/Facades/Schema.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Schema.php
+./config/vendor/illuminate/support/Facades/Session.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Session.php
+./config/vendor/illuminate/support/Facades/Storage.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Storage.php
+./config/vendor/illuminate/support/Facades/URL.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/URL.php
+./config/vendor/illuminate/support/Facades/Validator.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/Validator.php
+./config/vendor/illuminate/support/Facades/View.php
+No syntax errors detected in ./config/vendor/illuminate/support/Facades/View.php
+./config/vendor/illuminate/support/Fluent.php
+No syntax errors detected in ./config/vendor/illuminate/support/Fluent.php
+./config/vendor/illuminate/support/helpers.php
+No syntax errors detected in ./config/vendor/illuminate/support/helpers.php
+./config/vendor/illuminate/support/HigherOrderCollectionProxy.php
+No syntax errors detected in ./config/vendor/illuminate/support/HigherOrderCollectionProxy.php
+./config/vendor/illuminate/support/HigherOrderTapProxy.php
+No syntax errors detected in ./config/vendor/illuminate/support/HigherOrderTapProxy.php
+./config/vendor/illuminate/support/HtmlString.php
+No syntax errors detected in ./config/vendor/illuminate/support/HtmlString.php
+./config/vendor/illuminate/support/Manager.php
+No syntax errors detected in ./config/vendor/illuminate/support/Manager.php
+./config/vendor/illuminate/support/MessageBag.php
+No syntax errors detected in ./config/vendor/illuminate/support/MessageBag.php
+./config/vendor/illuminate/support/NamespacedItemResolver.php
+No syntax errors detected in ./config/vendor/illuminate/support/NamespacedItemResolver.php
+./config/vendor/illuminate/support/Pluralizer.php
+No syntax errors detected in ./config/vendor/illuminate/support/Pluralizer.php
+./config/vendor/illuminate/support/ServiceProvider.php
+No syntax errors detected in ./config/vendor/illuminate/support/ServiceProvider.php
+./config/vendor/illuminate/support/Str.php
+No syntax errors detected in ./config/vendor/illuminate/support/Str.php
+./config/vendor/illuminate/support/Testing/Fakes/BusFake.php
+No syntax errors detected in ./config/vendor/illuminate/support/Testing/Fakes/BusFake.php
+./config/vendor/illuminate/support/Testing/Fakes/EventFake.php
+No syntax errors detected in ./config/vendor/illuminate/support/Testing/Fakes/EventFake.php
+./config/vendor/illuminate/support/Testing/Fakes/MailFake.php
+No syntax errors detected in ./config/vendor/illuminate/support/Testing/Fakes/MailFake.php
+./config/vendor/illuminate/support/Testing/Fakes/NotificationFake.php
+No syntax errors detected in ./config/vendor/illuminate/support/Testing/Fakes/NotificationFake.php
+./config/vendor/illuminate/support/Testing/Fakes/PendingMailFake.php
+No syntax errors detected in ./config/vendor/illuminate/support/Testing/Fakes/PendingMailFake.php
+./config/vendor/illuminate/support/Testing/Fakes/QueueFake.php
+No syntax errors detected in ./config/vendor/illuminate/support/Testing/Fakes/QueueFake.php
+./config/vendor/illuminate/support/Traits/CapsuleManagerTrait.php
+No syntax errors detected in ./config/vendor/illuminate/support/Traits/CapsuleManagerTrait.php
+./config/vendor/illuminate/support/Traits/Macroable.php
+No syntax errors detected in ./config/vendor/illuminate/support/Traits/Macroable.php
+./config/vendor/illuminate/support/ViewErrorBag.php
+No syntax errors detected in ./config/vendor/illuminate/support/ViewErrorBag.php
+./config/vendor/illuminate/translation/ArrayLoader.php
+No syntax errors detected in ./config/vendor/illuminate/translation/ArrayLoader.php
+./config/vendor/illuminate/translation/FileLoader.php
+No syntax errors detected in ./config/vendor/illuminate/translation/FileLoader.php
+./config/vendor/illuminate/translation/LoaderInterface.php
+No syntax errors detected in ./config/vendor/illuminate/translation/LoaderInterface.php
+./config/vendor/illuminate/translation/MessageSelector.php
+No syntax errors detected in ./config/vendor/illuminate/translation/MessageSelector.php
+./config/vendor/illuminate/translation/TranslationServiceProvider.php
+No syntax errors detected in ./config/vendor/illuminate/translation/TranslationServiceProvider.php
+./config/vendor/illuminate/translation/Translator.php
+No syntax errors detected in ./config/vendor/illuminate/translation/Translator.php
+./config/vendor/paragonie/random_compat/lib/byte_safe_strings.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/byte_safe_strings.php
+./config/vendor/paragonie/random_compat/lib/cast_to_int.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/cast_to_int.php
+./config/vendor/paragonie/random_compat/lib/error_polyfill.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/error_polyfill.php
+./config/vendor/paragonie/random_compat/lib/random.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random.php
+./config/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php
+./config/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php
+./config/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php
+./config/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php
+./config/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php
+./config/vendor/paragonie/random_compat/lib/random_int.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/lib/random_int.php
+./config/vendor/paragonie/random_compat/other/build_phar.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/other/build_phar.php
+./config/vendor/paragonie/random_compat/psalm-autoload.php
+No syntax errors detected in ./config/vendor/paragonie/random_compat/psalm-autoload.php
+./config/vendor/symfony/finder/Comparator/Comparator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Comparator/Comparator.php
+./config/vendor/symfony/finder/Comparator/DateComparator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Comparator/DateComparator.php
+./config/vendor/symfony/finder/Comparator/NumberComparator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Comparator/NumberComparator.php
+./config/vendor/symfony/finder/Exception/AccessDeniedException.php
+No syntax errors detected in ./config/vendor/symfony/finder/Exception/AccessDeniedException.php
+./config/vendor/symfony/finder/Exception/ExceptionInterface.php
+No syntax errors detected in ./config/vendor/symfony/finder/Exception/ExceptionInterface.php
+./config/vendor/symfony/finder/Finder.php
+No syntax errors detected in ./config/vendor/symfony/finder/Finder.php
+./config/vendor/symfony/finder/Glob.php
+No syntax errors detected in ./config/vendor/symfony/finder/Glob.php
+./config/vendor/symfony/finder/Iterator/CustomFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/CustomFilterIterator.php
+./config/vendor/symfony/finder/Iterator/DateRangeFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/DateRangeFilterIterator.php
+./config/vendor/symfony/finder/Iterator/DepthRangeFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/DepthRangeFilterIterator.php
+./config/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php
+./config/vendor/symfony/finder/Iterator/FilecontentFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/FilecontentFilterIterator.php
+./config/vendor/symfony/finder/Iterator/FilenameFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/FilenameFilterIterator.php
+./config/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php
+./config/vendor/symfony/finder/Iterator/FilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/FilterIterator.php
+./config/vendor/symfony/finder/Iterator/MultiplePcreFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/MultiplePcreFilterIterator.php
+./config/vendor/symfony/finder/Iterator/PathFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/PathFilterIterator.php
+./config/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php
+./config/vendor/symfony/finder/Iterator/SizeRangeFilterIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/SizeRangeFilterIterator.php
+./config/vendor/symfony/finder/Iterator/SortableIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Iterator/SortableIterator.php
+./config/vendor/symfony/finder/SplFileInfo.php
+No syntax errors detected in ./config/vendor/symfony/finder/SplFileInfo.php
+./config/vendor/symfony/finder/Tests/Comparator/ComparatorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Comparator/ComparatorTest.php
+./config/vendor/symfony/finder/Tests/Comparator/DateComparatorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Comparator/DateComparatorTest.php
+./config/vendor/symfony/finder/Tests/Comparator/NumberComparatorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Comparator/NumberComparatorTest.php
+./config/vendor/symfony/finder/Tests/FinderTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/FinderTest.php
+./config/vendor/symfony/finder/Tests/GlobTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/GlobTest.php
+./config/vendor/symfony/finder/Tests/Iterator/CustomFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/CustomFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/DateRangeFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/DateRangeFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/DepthRangeFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/DepthRangeFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/ExcludeDirectoryFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/ExcludeDirectoryFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/FilecontentFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/FilecontentFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/FilenameFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/FilenameFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/FileTypeFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/FileTypeFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/FilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/FilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/Iterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/Iterator.php
+./config/vendor/symfony/finder/Tests/Iterator/IteratorTestCase.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/IteratorTestCase.php
+./config/vendor/symfony/finder/Tests/Iterator/MockFileListIterator.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/MockFileListIterator.php
+./config/vendor/symfony/finder/Tests/Iterator/MockSplFileInfo.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/MockSplFileInfo.php
+./config/vendor/symfony/finder/Tests/Iterator/MultiplePcreFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/MultiplePcreFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/PathFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/PathFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/RealIteratorTestCase.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/RealIteratorTestCase.php
+./config/vendor/symfony/finder/Tests/Iterator/RecursiveDirectoryIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/RecursiveDirectoryIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/SizeRangeFilterIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/SizeRangeFilterIteratorTest.php
+./config/vendor/symfony/finder/Tests/Iterator/SortableIteratorTest.php
+No syntax errors detected in ./config/vendor/symfony/finder/Tests/Iterator/SortableIteratorTest.php
+./config/view.php
+No syntax errors detected in ./config/view.php
+./database/migrations/2014_10_12_000000_create_users_table.php
+No syntax errors detected in ./database/migrations/2014_10_12_000000_create_users_table.php
+./database/migrations/2014_10_12_100000_create_password_resets_table.php
+No syntax errors detected in ./database/migrations/2014_10_12_100000_create_password_resets_table.php
+./database/migrations/2015_04_03_220551_create_expositions_table.php
+No syntax errors detected in ./database/migrations/2015_04_03_220551_create_expositions_table.php
+./database/migrations/2015_09_05_163737_add_exposant_attributes.php
+No syntax errors detected in ./database/migrations/2015_09_05_163737_add_exposant_attributes.php
+./database/migrations/2015_09_07_224102_create_cats_table.php
+No syntax errors detected in ./database/migrations/2015_09_07_224102_create_cats_table.php
+./database/migrations/2015_09_08_002736_create_coat_colors_table.php
+No syntax errors detected in ./database/migrations/2015_09_08_002736_create_coat_colors_table.php
+./database/migrations/2015_09_08_003314_create_breeds_table.php
+No syntax errors detected in ./database/migrations/2015_09_08_003314_create_breeds_table.php
+./database/migrations/2015_09_09_010202_user_add_address.php
+No syntax errors detected in ./database/migrations/2015_09_09_010202_user_add_address.php
+./database/migrations/2015_09_09_235808_create_registrations_table.php
+No syntax errors detected in ./database/migrations/2015_09_09_235808_create_registrations_table.php
+./database/migrations/2015_09_10_000008_create_cat_registration_table.php
+No syntax errors detected in ./database/migrations/2015_09_10_000008_create_cat_registration_table.php
+./database/migrations/2015_09_14_231023_user_add_admin_right.php
+No syntax errors detected in ./database/migrations/2015_09_14_231023_user_add_admin_right.php
+./database/migrations/2016_02_18_012728_create_results_table.php
+No syntax errors detected in ./database/migrations/2016_02_18_012728_create_results_table.php
+./database/migrations/2016_08_25_004605_cats_add_all_informations.php
+No syntax errors detected in ./database/migrations/2016_08_25_004605_cats_add_all_informations.php
+./database/migrations/2016_08_25_205118_users_informations.php
+No syntax errors detected in ./database/migrations/2016_08_25_205118_users_informations.php
+./database/migrations/2017_03_24_184430_cat_registration.php
+No syntax errors detected in ./database/migrations/2017_03_24_184430_cat_registration.php
+./database/migrations_DIS_/2015_04_03_220122_create_catteries_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_220122_create_catteries_table.php
+./database/migrations_DIS_/2015_04_03_220149_create_cats_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_220149_create_cats_table.php
+./database/migrations_DIS_/2015_04_03_220348_create_furs_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_220348_create_furs_table.php
+./database/migrations_DIS_/2015_04_03_220404_create_coats_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_220404_create_coats_table.php
+./database/migrations_DIS_/2015_04_03_220417_create_coat_colors_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_220417_create_coat_colors_table.php
+./database/migrations_DIS_/2015_04_03_221609_create_breeds_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_221609_create_breeds_table.php
+./database/migrations_DIS_/2015_04_03_221745_create_registrations_table.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_03_221745_create_registrations_table.php
+./database/migrations_DIS_/2015_04_06_164218_users_add_cattery.php
+No syntax errors detected in ./database/migrations_DIS_/2015_04_06_164218_users_add_cattery.php
+./database/seeds/CatTableSeeder.php
+No syntax errors detected in ./database/seeds/CatTableSeeder.php
+./database/seeds/DatabaseSeeder.php
+No syntax errors detected in ./database/seeds/DatabaseSeeder.php
+./database/seeds/ExpositionSeeder.php
+No syntax errors detected in ./database/seeds/ExpositionSeeder.php
+./database/seeds/UserTableSeeder.php
+No syntax errors detected in ./database/seeds/UserTableSeeder.php
+./public/index.php
+No syntax errors detected in ./public/index.php
+./resources/lang/en/pagination.php
+No syntax errors detected in ./resources/lang/en/pagination.php
+./resources/lang/en/passwords.php
+No syntax errors detected in ./resources/lang/en/passwords.php
+./resources/lang/en/profile.php
+No syntax errors detected in ./resources/lang/en/profile.php
+./resources/lang/en/validation.php
+No syntax errors detected in ./resources/lang/en/validation.php
+./resources/lang/fr/pagination.php
+No syntax errors detected in ./resources/lang/fr/pagination.php
+./resources/lang/fr/passwords.php
+No syntax errors detected in ./resources/lang/fr/passwords.php
+./resources/lang/fr/profile.php
+No syntax errors detected in ./resources/lang/fr/profile.php
+./resources/lang/fr/validation.php
+No syntax errors detected in ./resources/lang/fr/validation.php
+./resources/views/app.blade.php
+No syntax errors detected in ./resources/views/app.blade.php
+./resources/views/auth/login.blade.php
+No syntax errors detected in ./resources/views/auth/login.blade.php
+./resources/views/auth/password.blade.php
+No syntax errors detected in ./resources/views/auth/password.blade.php
+./resources/views/auth/register.blade.php
+No syntax errors detected in ./resources/views/auth/register.blade.php
+./resources/views/auth/reset.blade.php
+No syntax errors detected in ./resources/views/auth/reset.blade.php
+./resources/views/cats/CopyOfshow.blade.php
+No syntax errors detected in ./resources/views/cats/CopyOfshow.blade.php
+./resources/views/cats/create.blade.php
+No syntax errors detected in ./resources/views/cats/create.blade.php
+./resources/views/cats/edit.blade.php
+No syntax errors detected in ./resources/views/cats/edit.blade.php
+./resources/views/cats/index.blade.php
+No syntax errors detected in ./resources/views/cats/index.blade.php
+./resources/views/cats/partials/_form.blade.php
+No syntax errors detected in ./resources/views/cats/partials/_form.blade.php
+./resources/views/cats/show.blade.php
+No syntax errors detected in ./resources/views/cats/show.blade.php
+./resources/views/catteries/index.blade.php
+No syntax errors detected in ./resources/views/catteries/index.blade.php
+./resources/views/emails/password.blade.php
+No syntax errors detected in ./resources/views/emails/password.blade.php
+./resources/views/errors/503.blade.php
+No syntax errors detected in ./resources/views/errors/503.blade.php
+./resources/views/expositions/create.blade.php
+No syntax errors detected in ./resources/views/expositions/create.blade.php
+./resources/views/expositions/edit.blade.php
+No syntax errors detected in ./resources/views/expositions/edit.blade.php
+./resources/views/expositions/index.blade.php
+No syntax errors detected in ./resources/views/expositions/index.blade.php
+./resources/views/expositions/partials/_form.blade.php
+No syntax errors detected in ./resources/views/expositions/partials/_form.blade.php
+./resources/views/expositions/show.blade.php
+No syntax errors detected in ./resources/views/expositions/show.blade.php
+./resources/views/home.blade.php
+No syntax errors detected in ./resources/views/home.blade.php
+./resources/views/page.blade.php
+No syntax errors detected in ./resources/views/page.blade.php
+./resources/views/profiles/show.blade.php
+No syntax errors detected in ./resources/views/profiles/show.blade.php
+./resources/views/profiles/_form.blade.php
+No syntax errors detected in ./resources/views/profiles/_form.blade.php
+./resources/views/registrations/at_once.blade.php
+No syntax errors detected in ./resources/views/registrations/at_once.blade.php
+./resources/views/registrations/create.blade.php
+No syntax errors detected in ./resources/views/registrations/create.blade.php
+./resources/views/registrations/edit.blade.php
+No syntax errors detected in ./resources/views/registrations/edit.blade.php
+./resources/views/registrations/index.blade.php
+No syntax errors detected in ./resources/views/registrations/index.blade.php
+./resources/views/registrations/partials/_form.blade.php
+No syntax errors detected in ./resources/views/registrations/partials/_form.blade.php
+./resources/views/registrations/register.blade.php
+No syntax errors detected in ./resources/views/registrations/register.blade.php
+./resources/views/registrations/show.blade.php
+No syntax errors detected in ./resources/views/registrations/show.blade.php
+./resources/views/test.blade.php
+No syntax errors detected in ./resources/views/test.blade.php
+./resources/views/users/create.blade.php
+No syntax errors detected in ./resources/views/users/create.blade.php
+./resources/views/users/edit.blade.php
+No syntax errors detected in ./resources/views/users/edit.blade.php
+./resources/views/users/partials/_form.blade.php
+No syntax errors detected in ./resources/views/users/partials/_form.blade.php
+./resources/views/users/show.blade.php
+No syntax errors detected in ./resources/views/users/show.blade.php
+./resources/views/vendor/localization/navbar.blade.php
+No syntax errors detected in ./resources/views/vendor/localization/navbar.blade.php
+./resources/views/welcome.blade.org.php
+No syntax errors detected in ./resources/views/welcome.blade.org.php
+./resources/views/welcome.blade.php
+No syntax errors detected in ./resources/views/welcome.blade.php
+./server.php
+No syntax errors detected in ./server.php
+./storage/framework/config.php
+No syntax errors detected in ./storage/framework/config.php
+./tests/ExampleTest.php
+No syntax errors detected in ./tests/ExampleTest.php
+./tests/TestCase.php
+No syntax errors detected in ./tests/TestCase.php
+./vendor/arcanedev/localization/config/localization.php
+No syntax errors detected in ./vendor/arcanedev/localization/config/localization.php
+./vendor/arcanedev/localization/helpers.php
+No syntax errors detected in ./vendor/arcanedev/localization/helpers.php
+./vendor/arcanedev/localization/resources/views/navbar.blade.php
+No syntax errors detected in ./vendor/arcanedev/localization/resources/views/navbar.blade.php
+./vendor/arcanedev/localization/src/Bases/Middleware.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Bases/Middleware.php
+./vendor/arcanedev/localization/src/Contracts/LocalesManagerInterface.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Contracts/LocalesManagerInterface.php
+./vendor/arcanedev/localization/src/Contracts/LocalizationInterface.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Contracts/LocalizationInterface.php
+./vendor/arcanedev/localization/src/Contracts/NegotiatorInterface.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Contracts/NegotiatorInterface.php
+./vendor/arcanedev/localization/src/Contracts/RouteBindable.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Contracts/RouteBindable.php
+./vendor/arcanedev/localization/src/Contracts/RouteTranslatorInterface.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Contracts/RouteTranslatorInterface.php
+./vendor/arcanedev/localization/src/Contracts/UrlInterface.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Contracts/UrlInterface.php
+./vendor/arcanedev/localization/src/Entities/Locale.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Entities/Locale.php
+./vendor/arcanedev/localization/src/Entities/LocaleCollection.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Entities/LocaleCollection.php
+./vendor/arcanedev/localization/src/Exceptions/InvalidTranslationException.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Exceptions/InvalidTranslationException.php
+./vendor/arcanedev/localization/src/Exceptions/LocalizationException.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Exceptions/LocalizationException.php
+./vendor/arcanedev/localization/src/Exceptions/UndefinedSupportedLocalesException.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Exceptions/UndefinedSupportedLocalesException.php
+./vendor/arcanedev/localization/src/Exceptions/UnsupportedLocaleException.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Exceptions/UnsupportedLocaleException.php
+./vendor/arcanedev/localization/src/Facades/Localization.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Facades/Localization.php
+./vendor/arcanedev/localization/src/Localization.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Localization.php
+./vendor/arcanedev/localization/src/LocalizationServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/LocalizationServiceProvider.php
+./vendor/arcanedev/localization/src/Middleware/LocaleCookieRedirect.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Middleware/LocaleCookieRedirect.php
+./vendor/arcanedev/localization/src/Middleware/LocaleSessionRedirect.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Middleware/LocaleSessionRedirect.php
+./vendor/arcanedev/localization/src/Middleware/LocalizationRedirect.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Middleware/LocalizationRedirect.php
+./vendor/arcanedev/localization/src/Middleware/LocalizationRoutes.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Middleware/LocalizationRoutes.php
+./vendor/arcanedev/localization/src/Middleware/TranslationRedirect.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Middleware/TranslationRedirect.php
+./vendor/arcanedev/localization/src/Providers/RoutingServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Providers/RoutingServiceProvider.php
+./vendor/arcanedev/localization/src/Providers/UtilitiesServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Providers/UtilitiesServiceProvider.php
+./vendor/arcanedev/localization/src/Routing/ResourceRegistrar.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Routing/ResourceRegistrar.php
+./vendor/arcanedev/localization/src/Routing/Router.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Routing/Router.php
+./vendor/arcanedev/localization/src/Traits/LocalizationKernelTrait.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Traits/LocalizationKernelTrait.php
+./vendor/arcanedev/localization/src/Utilities/LocalesManager.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Utilities/LocalesManager.php
+./vendor/arcanedev/localization/src/Utilities/Negotiator.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Utilities/Negotiator.php
+./vendor/arcanedev/localization/src/Utilities/RouteTranslator.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Utilities/RouteTranslator.php
+./vendor/arcanedev/localization/src/Utilities/Url.php
+No syntax errors detected in ./vendor/arcanedev/localization/src/Utilities/Url.php
+./vendor/arcanedev/support/constants.php
+No syntax errors detected in ./vendor/arcanedev/support/constants.php
+./vendor/arcanedev/support/helpers.php
+No syntax errors detected in ./vendor/arcanedev/support/helpers.php
+./vendor/arcanedev/support/src/Bases/Command.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Command.php
+./vendor/arcanedev/support/src/Bases/Controller.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Controller.php
+./vendor/arcanedev/support/src/Bases/FormRequest.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/FormRequest.php
+./vendor/arcanedev/support/src/Bases/Middleware.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Middleware.php
+./vendor/arcanedev/support/src/Bases/Migration.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Migration.php
+./vendor/arcanedev/support/src/Bases/Model.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Model.php
+./vendor/arcanedev/support/src/Bases/Policy.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Policy.php
+./vendor/arcanedev/support/src/Bases/RouteRegister.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/RouteRegister.php
+./vendor/arcanedev/support/src/Bases/Seeder.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Bases/Seeder.php
+./vendor/arcanedev/support/src/Collection.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Collection.php
+./vendor/arcanedev/support/src/Exceptions/PackageException.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Exceptions/PackageException.php
+./vendor/arcanedev/support/src/Exceptions/RouteNamespaceUndefinedException.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Exceptions/RouteNamespaceUndefinedException.php
+./vendor/arcanedev/support/src/Json.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Json.php
+./vendor/arcanedev/support/src/Manager.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Manager.php
+./vendor/arcanedev/support/src/Middleware/OnlyAjaxMiddleware.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Middleware/OnlyAjaxMiddleware.php
+./vendor/arcanedev/support/src/Middleware/VerifyJsonRequest.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Middleware/VerifyJsonRequest.php
+./vendor/arcanedev/support/src/PackageServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/support/src/PackageServiceProvider.php
+./vendor/arcanedev/support/src/Providers/AuthorizationServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Providers/AuthorizationServiceProvider.php
+./vendor/arcanedev/support/src/Providers/CommandServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Providers/CommandServiceProvider.php
+./vendor/arcanedev/support/src/Providers/EventServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Providers/EventServiceProvider.php
+./vendor/arcanedev/support/src/Providers/RouteServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Providers/RouteServiceProvider.php
+./vendor/arcanedev/support/src/ServiceProvider.php
+No syntax errors detected in ./vendor/arcanedev/support/src/ServiceProvider.php
+./vendor/arcanedev/support/src/Stub.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Stub.php
+./vendor/arcanedev/support/src/Traits/Abortable.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Traits/Abortable.php
+./vendor/arcanedev/support/src/Traits/Configurable.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Traits/Configurable.php
+./vendor/arcanedev/support/src/Traits/PrefixedModel.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Traits/PrefixedModel.php
+./vendor/arcanedev/support/src/Traits/Templatable.php
+No syntax errors detected in ./vendor/arcanedev/support/src/Traits/Templatable.php
+./vendor/autoload.php
+No syntax errors detected in ./vendor/autoload.php
+./vendor/barryvdh/laravel-translation-manager/config/translation-manager.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/config/translation-manager.php
+./vendor/barryvdh/laravel-translation-manager/database/migrations/2014_04_02_193005_create_translations_table.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/database/migrations/2014_04_02_193005_create_translations_table.php
+./vendor/barryvdh/laravel-translation-manager/resources/views/index.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/resources/views/index.php
+./vendor/barryvdh/laravel-translation-manager/src/Console/CleanCommand.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Console/CleanCommand.php
+./vendor/barryvdh/laravel-translation-manager/src/Console/ExportCommand.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Console/ExportCommand.php
+./vendor/barryvdh/laravel-translation-manager/src/Console/FindCommand.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Console/FindCommand.php
+./vendor/barryvdh/laravel-translation-manager/src/Console/ImportCommand.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Console/ImportCommand.php
+./vendor/barryvdh/laravel-translation-manager/src/Console/ResetCommand.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Console/ResetCommand.php
+./vendor/barryvdh/laravel-translation-manager/src/Controller.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Controller.php
+./vendor/barryvdh/laravel-translation-manager/src/Manager.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Manager.php
+./vendor/barryvdh/laravel-translation-manager/src/ManagerServiceProvider.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/ManagerServiceProvider.php
+./vendor/barryvdh/laravel-translation-manager/src/Models/Translation.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Models/Translation.php
+./vendor/barryvdh/laravel-translation-manager/src/TranslationServiceProvider.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/TranslationServiceProvider.php
+./vendor/barryvdh/laravel-translation-manager/src/Translator.php
+No syntax errors detected in ./vendor/barryvdh/laravel-translation-manager/src/Translator.php
+./vendor/classpreloader/classpreloader/src/ClassList.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/ClassList.php
+./vendor/classpreloader/classpreloader/src/ClassLoader.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/ClassLoader.php
+./vendor/classpreloader/classpreloader/src/ClassNode.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/ClassNode.php
+./vendor/classpreloader/classpreloader/src/ClassPreloader.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/ClassPreloader.php
+./vendor/classpreloader/classpreloader/src/Config.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Config.php
+./vendor/classpreloader/classpreloader/src/Exceptions/DirConstantException.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Exceptions/DirConstantException.php
+./vendor/classpreloader/classpreloader/src/Exceptions/FileConstantException.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Exceptions/FileConstantException.php
+./vendor/classpreloader/classpreloader/src/Exceptions/StrictTypesException.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Exceptions/StrictTypesException.php
+./vendor/classpreloader/classpreloader/src/Exceptions/VisitorExceptionInterface.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Exceptions/VisitorExceptionInterface.php
+./vendor/classpreloader/classpreloader/src/Factory.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Factory.php
+./vendor/classpreloader/classpreloader/src/Parser/AbstractNodeVisitor.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Parser/AbstractNodeVisitor.php
+./vendor/classpreloader/classpreloader/src/Parser/DirVisitor.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Parser/DirVisitor.php
+./vendor/classpreloader/classpreloader/src/Parser/FileVisitor.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Parser/FileVisitor.php
+./vendor/classpreloader/classpreloader/src/Parser/NodeTraverser.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Parser/NodeTraverser.php
+./vendor/classpreloader/classpreloader/src/Parser/StrictTypesVisitor.php
+No syntax errors detected in ./vendor/classpreloader/classpreloader/src/Parser/StrictTypesVisitor.php
+./vendor/compiled.php
+No syntax errors detected in ./vendor/compiled.php
+./vendor/composer/autoload_classmap.php
+No syntax errors detected in ./vendor/composer/autoload_classmap.php
+./vendor/composer/autoload_files.php
+No syntax errors detected in ./vendor/composer/autoload_files.php
+./vendor/composer/autoload_namespaces.php
+No syntax errors detected in ./vendor/composer/autoload_namespaces.php
+./vendor/composer/autoload_psr4.php
+No syntax errors detected in ./vendor/composer/autoload_psr4.php
+./vendor/composer/autoload_real.php
+No syntax errors detected in ./vendor/composer/autoload_real.php
+./vendor/composer/autoload_static.php
+No syntax errors detected in ./vendor/composer/autoload_static.php
+./vendor/composer/ClassLoader.php
+No syntax errors detected in ./vendor/composer/ClassLoader.php
+./vendor/danielstjules/stringy/src/Create.php
+No syntax errors detected in ./vendor/danielstjules/stringy/src/Create.php
+./vendor/danielstjules/stringy/src/StaticStringy.php
+No syntax errors detected in ./vendor/danielstjules/stringy/src/StaticStringy.php
+./vendor/danielstjules/stringy/src/Stringy.php
+No syntax errors detected in ./vendor/danielstjules/stringy/src/Stringy.php
+./vendor/danielstjules/stringy/tests/CommonTest.php
+No syntax errors detected in ./vendor/danielstjules/stringy/tests/CommonTest.php
+./vendor/danielstjules/stringy/tests/CreateTest.php
+No syntax errors detected in ./vendor/danielstjules/stringy/tests/CreateTest.php
+./vendor/danielstjules/stringy/tests/StaticStringyTest.php
+No syntax errors detected in ./vendor/danielstjules/stringy/tests/StaticStringyTest.php
+./vendor/danielstjules/stringy/tests/StringyTest.php
+No syntax errors detected in ./vendor/danielstjules/stringy/tests/StringyTest.php
+./vendor/dnoegel/php-xdg-base-dir/src/Xdg.php
+No syntax errors detected in ./vendor/dnoegel/php-xdg-base-dir/src/Xdg.php
+./vendor/dnoegel/php-xdg-base-dir/tests/XdgTest.php
+No syntax errors detected in ./vendor/dnoegel/php-xdg-base-dir/tests/XdgTest.php
+./vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php
+No syntax errors detected in ./vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php
+./vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php
+No syntax errors detected in ./vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php
+./vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php
+No syntax errors detected in ./vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php
+./vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php
+No syntax errors detected in ./vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php
+./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php
+No syntax errors detected in ./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php
+./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php
+No syntax errors detected in ./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php
+./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php
+No syntax errors detected in ./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php
+./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php
+No syntax errors detected in ./vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php
+./vendor/doctrine/instantiator/src/Doctrine/Instantiator/InstantiatorInterface.php
+No syntax errors detected in ./vendor/doctrine/instantiator/src/Doctrine/Instantiator/InstantiatorInterface.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorPerformance/InstantiatorPerformanceEvent.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorPerformance/InstantiatorPerformanceEvent.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/InvalidArgumentExceptionTest.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/InvalidArgumentExceptionTest.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/UnexpectedValueExceptionTest.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/UnexpectedValueExceptionTest.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/InstantiatorTest.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/InstantiatorTest.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/AbstractClassAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/AbstractClassAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ArrayObjectAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ArrayObjectAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ExceptionAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ExceptionAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/FinalExceptionAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/FinalExceptionAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharExceptionAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharExceptionAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SerializableArrayObjectAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SerializableArrayObjectAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleSerializableAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleSerializableAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleTraitAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleTraitAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnCloneableAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnCloneableAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnserializeExceptionArrayObjectAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnserializeExceptionArrayObjectAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/WakeUpNoticesAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/WakeUpNoticesAsset.php
+./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/XMLReaderAsset.php
+No syntax errors detected in ./vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/XMLReaderAsset.php
+./vendor/fzaninotto/faker/src/autoload.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/autoload.php
+./vendor/fzaninotto/faker/src/Faker/Calculator/Iban.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Calculator/Iban.php
+./vendor/fzaninotto/faker/src/Faker/Calculator/Luhn.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Calculator/Luhn.php
+./vendor/fzaninotto/faker/src/Faker/DefaultGenerator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/DefaultGenerator.php
+./vendor/fzaninotto/faker/src/Faker/Documentor.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Documentor.php
+./vendor/fzaninotto/faker/src/Faker/Factory.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Factory.php
+./vendor/fzaninotto/faker/src/Faker/Generator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Generator.php
+./vendor/fzaninotto/faker/src/Faker/Guesser/Name.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Guesser/Name.php
+./vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/ColumnTypeGuesser.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/ColumnTypeGuesser.php
+./vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/Populator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/ColumnTypeGuesser.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/ColumnTypeGuesser.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/EntityPopulator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/EntityPopulator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/Populator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Doctrine/Populator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Mandango/ColumnTypeGuesser.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Mandango/ColumnTypeGuesser.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Mandango/EntityPopulator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Mandango/EntityPopulator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Mandango/Populator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Mandango/Populator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Propel/ColumnTypeGuesser.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Propel/ColumnTypeGuesser.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Propel/EntityPopulator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Propel/EntityPopulator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Propel/Populator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Propel/Populator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Propel2/ColumnTypeGuesser.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Propel2/ColumnTypeGuesser.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Propel2/EntityPopulator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Propel2/EntityPopulator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Propel2/Populator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Propel2/Populator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Spot/ColumnTypeGuesser.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Spot/ColumnTypeGuesser.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Spot/EntityPopulator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Spot/EntityPopulator.php
+./vendor/fzaninotto/faker/src/Faker/ORM/Spot/Populator.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/ORM/Spot/Populator.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_JO/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/ar_SA/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/at_AT/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/at_AT/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Barcode.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Barcode.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Base.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Base.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bg_BG/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Biased.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Biased.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Utils.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/bn_BD/Utils.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Color.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Color.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/DateTime.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/DateTime.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/cs_CZ/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/DateTime.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/DateTime.php
+./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/da_DK/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_AT/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_CH/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/el_GR/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_AU/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_AU/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_AU/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_AU/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_AU/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_AU/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_CA/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_CA/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_CA/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_CA/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_GB/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_IN/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_NZ/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_NZ/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_NZ/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_NZ/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_NZ/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_NZ/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_PH/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_PH/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_PH/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_PH/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_SG/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_SG/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_SG/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_SG/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_UG/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_US/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_US/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_US/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/en_ZA/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_AR/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_ES/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_PE/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/es_VE/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fa_IR/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/File.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/File.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fi_FI/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_BE/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CA/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CA/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CA/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CA/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_CH/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/fr_FR/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/he_IL/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hr_HR/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Payment.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Payment.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Text.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hu_HU/Text.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Color.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Color.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/hy_AM/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Address.php
+./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Company.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Company.php
+./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Person.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/Person.php
+./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/PhoneNumber.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/id_ID/PhoneNumber.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Image.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Image.php
+./vendor/fzaninotto/faker/src/Faker/Provider/Internet.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/Internet.php
+./vendor/fzaninotto/faker/src/Faker/Provider/is_IS/Address.php
+No syntax errors detected in ./vendor/fzaninotto/faker/src/Faker/Provider/is_IS/Address.php

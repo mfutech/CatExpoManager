@@ -3,7 +3,7 @@
 use Illuminate\Database\Eloquent\Model;
 use App\User;
 use App\Cat;
-use App\CatRegistration
+use App\CatRegistration;
 
 class Registration extends Model {
 

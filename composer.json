@@ -10,7 +10,7 @@
 		"watson/bootstrap-form": "^1.0",
 		"laravelcollective/html": "~5.1",
 		"arcanedev/localization": "0.8.*",
-		"barryvdh/laravel-translation-manager": "^0.2.8"
+		"barryvdh/laravel-translation-manager": "0.2.x"
 	},
 	"require-dev": {
 		"fzaninotto/faker": "~1.4",

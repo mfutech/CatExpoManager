@@ -1,7 +1,9 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 use App\Cat;
+use App\CatRegistration;
 
 class Registration extends Model {
 
@@ -9,9 +11,9 @@ class Registration extends Model {
 		'user_id', 'exposition_id', 'status', 'confirmed', 'payed'
 	];
 
-    public function cats()
+    public function cat_regs()
     {
-        return $this->belongsToMany('App\Cat');
+        return $this->belongsToMany('App\CatRegistration');
     }
 
 	public function user()

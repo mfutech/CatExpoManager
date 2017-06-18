@@ -11,34 +11,54 @@
 |
 */
 
-// Provide controller methods with object instead of ID
-Route::model('expositions', 'App\Exposition');
-Route::model('cats', 'App\Cat');
-Route::model('registrations', 'App\Registration');
+/*
+ * Localized ressources
+ */
 
-// basic routing
-Route::get('/', 'WelcomeController@index');
-Route::get('home', 'HomeController@index');
+Route::localizedGroup(function () {
 
-// auth and user management
-Route::get('users', function() { return 'Users!'; });
+	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+
+	Route::resource('test','testController');
+});
+
+ // Route::localizedGroup(function () {
+
+	// Provide controller methods with object instead of ID
+	Route::model('expositions', 'App\Exposition');
+	Route::model('cats', 'App\Cat');
+	Route::model('registrations', 'App\Registration');
+
+	// basic routing
+	Route::get('/', 'WelcomeController@index');
+	Route::get('home', 'HomeController@index');
+
+	Route::get('/simplereg', 'SimpleRegistrationController@register');
+
+	// auth and user management
+	Route::get('users', function() { return 'Users!'; });
 
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+	Route::controllers([
+		'auth' => 'Auth\AuthController',
+		'password' => 'Auth\PasswordController',
+	]);
 
-Route::get('profile', ['uses' => 'ProfileController@index']);
-Route::get('registrations/register/{expo_id}', ['uses' => 'RegistrationsController@register']);
+	Route::get('profile', ['uses' => 'ProfileController@index']);
+	Route::get('registrations/register/{expo_id}', ['uses' => 'RegistrationsController@register']);
 
 
-// ressources
-Route::resource('expositions','ExpositionsController');
-Route::resource('cats', 'CatsController');
-Route::resource('registrations', 'RegistrationsController');
+	// ressources
+	Route::resource('expositions','ExpositionsController');
+	Route::resource('cats', 'CatsController');
+	Route::resource('registrations', 'RegistrationsController');
 
-//Route::resource('catteries', 'CatteriesController');
+	//Route::resource('catteries', 'CatteriesController');
+// });
+
+/*
+ * Non localized ressources
+ */
 
 //utils
 Route::get('pleasedo-migrate', function() {

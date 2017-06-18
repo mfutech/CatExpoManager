@@ -112,9 +112,9 @@ return [
 		/*
 		 * Laravel Framework Service Providers...
 		 */
-        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
-        Illuminate\Auth\AuthServiceProvider::class,
-        Illuminate\Broadcasting\BroadcastServiceProvider::class,
+		Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
+		Illuminate\Auth\AuthServiceProvider::class,
+		Illuminate\Broadcasting\BroadcastServiceProvider::class,
 		'Illuminate\Bus\BusServiceProvider',
 		'Illuminate\Cache\CacheServiceProvider',
 		'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
@@ -149,6 +149,8 @@ return [
 		 */
 		Collective\Html\HtmlServiceProvider::class,
 		Watson\BootstrapForm\BootstrapFormServiceProvider::class,
+		Arcanedev\Localization\LocalizationServiceProvider::class,
+		Barryvdh\TranslationManager\ManagerServiceProvider::class,
 
 	],
 
@@ -178,7 +180,7 @@ return [
 		'Eloquent'  => 'Illuminate\Database\Eloquent\Model',
 		'Event'     => 'Illuminate\Support\Facades\Event',
 		'File'      => 'Illuminate\Support\Facades\File',
-        'Gate'      => Illuminate\Support\Facades\Gate::class,
+		'Gate'      => Illuminate\Support\Facades\Gate::class,
 		'Hash'      => 'Illuminate\Support\Facades\Hash',
 		'Input'     => 'Illuminate\Support\Facades\Input',
 		'Inspiring' => 'Illuminate\Foundation\Inspiring',

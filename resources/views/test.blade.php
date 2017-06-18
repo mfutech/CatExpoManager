@@ -16,6 +16,12 @@ ici on parle: {{ $loc }}
 @endforeach
 </ul>
 
+<p>
+{{ trans('test.welcome')}}
+<p>
+{{ trans('test.welcome2')}}
+<p>
+Current local: {{Lang::locale()}}
 <hr>
 {!! $nb !!}
 @endsection

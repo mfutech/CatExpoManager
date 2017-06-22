@@ -1,10 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Marc
- * Date: 2015-09-13
- * Time: 23:26
- */
+use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
+
+use App\User;
+use App\Cat;
 
 class CatTableSeeder extends Seeder {
     public function run()

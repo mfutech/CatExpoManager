@@ -1,6 +1,6 @@
 
 <div class="form-group">
-    {!! Form::label('firstname', 'Prénom:', [ 'class' => 'col-md-10']) !!}
+    {!! Form::label('firstname', trans('forms.firstname').":", [ 'class' => 'col-md-10']) !!}
     {!! Form::text('firstname') !!}
 </div>
 <div class="form-group">

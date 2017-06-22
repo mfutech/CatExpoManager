@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
 
+use App\User;
+
 class ProfileController extends Controller {
 
 	/**
@@ -27,7 +29,7 @@ class ProfileController extends Controller {
 	public function index()
 	{
 		$user = Auth::user();
-		return view('profiles.show', compact('user'));
+		$this->show($user);
 	}
 
 	/**
@@ -56,9 +58,9 @@ class ProfileController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show(User $user)
 	{
-		//
+		return view('profiles.show', compact('user'));
 	}
 
 	/**

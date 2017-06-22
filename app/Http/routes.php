@@ -20,14 +20,12 @@ Route::localizedGroup(function () {
 	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
 
 	Route::resource('test','testController');
-});
-
- // Route::localizedGroup(function () {
 
 	// Provide controller methods with object instead of ID
 	Route::model('expositions', 'App\Exposition');
 	Route::model('cats', 'App\Cat');
 	Route::model('registrations', 'App\Registration');
+	Route::model('profile', 'App\User');
 
 	// basic routing
 	Route::get('/', 'WelcomeController@index');
@@ -44,17 +42,18 @@ Route::localizedGroup(function () {
 		'password' => 'Auth\PasswordController',
 	]);
 
-	Route::get('profile', ['uses' => 'ProfileController@index']);
+	//Route::get('profile', ['uses' => 'ProfileController@index']);
 	Route::get('registrations/register/{expo_id}', ['uses' => 'RegistrationsController@register']);
 
 
 	// ressources
+	Route::resource('profile', 'ProfileController');
 	Route::resource('expositions','ExpositionsController');
 	Route::resource('cats', 'CatsController');
 	Route::resource('registrations', 'RegistrationsController');
 
 	//Route::resource('catteries', 'CatteriesController');
-// });
+});
 
 /*
  * Non localized ressources

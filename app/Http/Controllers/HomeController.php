@@ -32,7 +32,6 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		$cattery = Auth::user()->cattery;
 		return view('home');
 	}
 

@@ -8,7 +8,7 @@ use Auth;
 
 use App\User;
 
-class ProfileController extends Controller {
+class ProfilesController extends Controller {
 
 	/**
 	 * Create a new controller instance.

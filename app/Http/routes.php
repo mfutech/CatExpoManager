@@ -34,8 +34,6 @@ Route::localizedGroup(function () {
 	Route::get('/simplereg', 'SimpleRegistrationController@register');
 
 	// auth and user management
-	Route::get('users', function() { return 'Users!'; });
-
 
 	Route::controllers([
 		'auth' => 'Auth\AuthController',
@@ -51,6 +49,7 @@ Route::localizedGroup(function () {
 	Route::resource('expositions','ExpositionsController');
 	Route::resource('cats', 'CatsController');
 	Route::resource('registrations', 'RegistrationsController');
+	Route::resource('profile', 'ProfilesController');
 
 	//Route::resource('catteries', 'CatteriesController');
 });

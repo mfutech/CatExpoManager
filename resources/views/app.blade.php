@@ -70,6 +70,7 @@
 						<li><a href="{{ url('/profile') }}">Mon Profile</a></li>
 						<li><a href="{{ url('/auth/logout') }}">Déconnexion</a></li>
 					@endif
+						<li><a>{{Lang::locale()}}</a></li>
 				</ul>
 			</div>
 		</div>

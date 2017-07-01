@@ -29,7 +29,7 @@ class ProfilesController extends Controller {
 	public function index()
 	{
 		$user = Auth::user();
-		$this->show($user);
+		return $this->show($user);
 	}
 
 	/**

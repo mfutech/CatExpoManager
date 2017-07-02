@@ -4,6 +4,10 @@
 @endsection
 @section('page_content')
 
-	@include('profiles/_form', ['submit_text' => trans('forms.create'), "options" => [ ] ])
+	@include('profiles/_form', 
+				['submit_text' => null, 
+				 'options' => [ 'disabled' => true] ])
+	
+	<a class="btn btn-primary" href="{{ route("profile.edit", $user) }}">{{trans('forms.modify')}}</a>
 
 @endsection

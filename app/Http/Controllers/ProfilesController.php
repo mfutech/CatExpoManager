@@ -1,10 +1,14 @@
 <?php namespace App\Http\Controllers;
 
+use Auth;
+use Input;
+use Redirect;
+
+use Gate;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use Auth;
 
 use App\User;
 
@@ -69,9 +73,9 @@ class ProfilesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit(User $user)
 	{
-		//
+		return view('profiles.edit', compact('user'));
 	}
 
 	/**
@@ -80,9 +84,18 @@ class ProfilesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update(User $user)
 	{
-		//
+		if($user->id == Auth::user()->id) {
+			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
+			$user->update($input);
+			$mesg = 'Donnée validée.';
+
+		}
+		else {
+			$mesg = 'Modification interdite';
+		}
+		return Redirect::route('profile.show', $user)->with('message', $mesg);	
 	}
 
 	/**

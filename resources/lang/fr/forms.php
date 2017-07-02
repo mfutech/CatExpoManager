@@ -22,4 +22,6 @@ return array (
   'father' => 'Père',
   'mother' => 'Mère',
   'catregister' => 'Livre des Origines',
+  'modify' => 'Modifier',
+  'url' => 'Site Web',
 );

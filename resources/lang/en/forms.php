@@ -1,0 +1,27 @@
+<?php
+
+return array (
+  'firstname' => 'Firstname',
+  'name' => 'Name',
+  'email' => 'E-mail',
+  'password' => 'Password',
+  'confirm_password' => 'Password confirmation',
+  'phone' => 'Phone',
+  'affiliation' => 'Club',
+  'register' => 'Register',
+  'address' => 'Adress',
+  'CP_city' => 'ZIP + City',
+  'country' => 'Country',
+  'create' => 'Create',
+  'validate' => 'Validate',
+  'breed' => 'Breed',
+  'color' => 'Color',
+  'birthdate' => 'Birth date',
+  'eyecolor' => 'Eye Color',
+  'breeder' => 'Breeder',
+  'father' => 'Father',
+  'mother' => 'Mother',
+  'catregister' => 'Cat Registration',
+  'modify' => 'Modfiy',
+  'url' => 'Website',
+);

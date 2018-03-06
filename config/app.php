@@ -97,6 +97,11 @@ return [
 	'log' => 'daily',
 
 	/*
+	| upgrade 5.3
+	*/
+	'name' => 'Cat Expo Manager',
+
+	/*
 	|--------------------------------------------------------------------------
 	| Autoloaded Service Providers
 	|--------------------------------------------------------------------------
@@ -107,12 +112,13 @@ return [
 	|
 	*/
 
+
 	'providers' => [
 
 		/*
 		 * Laravel Framework Service Providers...
 		 */
-		Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
+		//Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
 		Illuminate\Auth\AuthServiceProvider::class,
 		Illuminate\Broadcasting\BroadcastServiceProvider::class,
 		'Illuminate\Bus\BusServiceProvider',
@@ -144,6 +150,8 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+		/* upgrade 5.3 */
+		"Illuminate\Notifications\NotificationServiceProvider",
 		/*
 		 * Extra helpers
 		 */

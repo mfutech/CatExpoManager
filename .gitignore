@@ -13,3 +13,4 @@
 .idea
 dumps/
 .vscode
+.vs/*

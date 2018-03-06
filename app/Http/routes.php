@@ -15,7 +15,7 @@
  * Localized ressources
  */
 
-Route::localizedGroup(function () {
+//Route::localizedGroup(function () {
 
 	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
 
@@ -33,12 +33,6 @@ Route::localizedGroup(function () {
 
 	Route::get('/simplereg', 'SimpleRegistrationController@register');
 
-	// auth and user management
-
-	Route::controllers([
-		'auth' => 'Auth\AuthController',
-		'password' => 'Auth\PasswordController',
-	]);
 
 	//Route::get('profile', ['uses' => 'ProfileController@index']);
 	Route::get('registrations/register/{expo_id}', ['uses' => 'RegistrationsController@register']);
@@ -52,7 +46,7 @@ Route::localizedGroup(function () {
 	Route::resource('profile', 'ProfilesController');
 
 	//Route::resource('catteries', 'CatteriesController');
-});
+//});
 
 /*
  * Non localized ressources
@@ -65,3 +59,5 @@ Route::get('pleasedo-migrate', function() {
       Artisan::call('migrate', ['--quiet' => false, '--force' => false]);
       echo '<br>done with Migrate tables';
 });
+
+Auth::routes();

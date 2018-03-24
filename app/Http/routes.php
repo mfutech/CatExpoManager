@@ -53,11 +53,15 @@
  */
 
 //utils
+/*
 Route::get('pleasedo-migrate', function() {
 
       echo '<br>init with Migrate tables ...';
       Artisan::call('migrate', ['--quiet' => false, '--force' => false]);
       echo '<br>done with Migrate tables';
 });
+*/
 
-Auth::routes();
+Route::prefix('auth')->group(function () {
+	Auth::routes();
+});

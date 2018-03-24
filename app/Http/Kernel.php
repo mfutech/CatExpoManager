@@ -1,12 +1,12 @@
 <?php namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
-use Arcanedev\Localization\Traits\LocalizationKernelTrait;
+// TODO: use Arcanedev\Localization\Traits\LocalizationKernelTrait;
 
 class Kernel extends HttpKernel {
 
 	// Localization Trait
-	use LocalizationKernelTrait;
+	// TODO: use LocalizationKernelTrait;
 
 	/**
 	 * The application's global HTTP middleware stack.

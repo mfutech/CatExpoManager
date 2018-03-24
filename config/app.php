@@ -81,20 +81,7 @@ return [
 	'key' => env('APP_KEY', '{X9BT-ww%\xAZTaiT-E}^nWFAVY=rmNB'),
 
 	'cipher' => 'AES-256-CBC',
-	/*
-	|--------------------------------------------------------------------------
-	| Logging Configuration
-	|--------------------------------------------------------------------------
-	|
-	| Here you may configure the log settings for your application. Out of
-	| the box, Laravel uses the Monolog PHP logging library. This gives
-	| you a variety of powerful log handlers / formatters to utilize.
-	|
-	| Available Settings: "single", "daily", "syslog", "errorlog"
-	|
-	*/
 
-	'log' => 'daily',
 
 	/*
 	| upgrade 5.3
@@ -152,13 +139,15 @@ return [
 		'App\Providers\RouteServiceProvider',
 		/* upgrade 5.3 */
 		"Illuminate\Notifications\NotificationServiceProvider",
+		/* upgrade 5.4 */
+		Laravel\Tinker\TinkerServiceProvider::class ,
 		/*
 		 * Extra helpers
 		 */
 		Collective\Html\HtmlServiceProvider::class,
 		Watson\BootstrapForm\BootstrapFormServiceProvider::class,
-		Arcanedev\Localization\LocalizationServiceProvider::class,
-		Barryvdh\TranslationManager\ManagerServiceProvider::class,
+		//Arcanedev\Localization\LocalizationServiceProvider::class,
+		//Barryvdh\TranslationManager\ManagerServiceProvider::class,
 
 	],
 

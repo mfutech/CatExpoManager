@@ -33,5 +33,10 @@ return [
 		'model'  => 'User',
 		'secret' => '',
 	],
+	'facebook' => [
+		'client_id' => env('FACEBOOK_CLIENT_ID'),         // Your FACEBOOK Client ID
+		'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your FACEBOOK Client Secret
+		'redirect' => 'https://catexpo.app:44300/login/facebook/callback',
+	],
 
 ];

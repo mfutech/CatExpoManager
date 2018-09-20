@@ -25,6 +25,12 @@ class Cat extends Model {
         return $this->user();
     }
 
+    /**
+     * scope cats belonging to user
+     *
+     * @param query
+     * @return query
+     */
     public function scopeUsersCats($query)
     {
         return $query->where('user_id', '=', Auth::user()->id);

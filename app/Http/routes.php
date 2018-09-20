@@ -65,3 +65,6 @@ Route::get('pleasedo-migrate', function() {
 Route::prefix('auth')->group(function () {
 	Auth::routes();
 });
+
+Route::get('login/facebook', 'Auth\SocialLoginController@redirectToProvider');
+Route::get('login/facebook/callback', 'Auth\SocialLoginController@handleProviderCallback');

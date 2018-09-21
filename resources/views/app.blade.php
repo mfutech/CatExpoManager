@@ -54,30 +54,31 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					@if(Auth::guest())
-						<li><a href="{{ url('/') }}">Acceuil</a></li>
+						<li><a href="{{ url('/') }}">{{__("Acceuil")}}</a></li>
 					@else
-						<li><a href="{{ url('/home') }}">Acceuil</a></li>
-					  <li><a href="{{ url('/expositions') }}">Expositions</a>
-						<li><a href="{{ url('/cats') }}">Mes Chats</a>
+						<li><a href="{{ url('/home') }}">{{__("Acceuil")}}</a></li>
+					  <li><a href="{{ url('/expositions') }}">{{__("Expositions")}}</a>
+						<li><a href="{{ url('/cats') }}">{{__("Mes Chats")}}</a>
 					@endif
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right	">
 					@if (Auth::guest())
-						<li><a href="{{ url('/auth/login') }}">Connexion</a></li>
-						<li><a href="{{ url('/auth/register') }}">Inscriptions</a></li>
+						<li><a href="{{ url('/auth/login') }}">{{__("Connexion")}}</a></li>
+						<li><a href="{{ url('/auth/register') }}">{{__("Inscriptions")}}</a></li>
 					@else
-						<li><a href="{{ url('/profile') }}">Mon Profile</a></li>
-						<li><a href="{{ url('/auth/logout') }}">Déconnexion</a></li>
+						<li><a href="{{ url('/profile') }}">{{__("Mon Profile")}}</a></li>
+						<li><a href="{{ url('/auth/logout') }}">{{__("Déconnexion")}}</a></li>
 					@endif
-						<li><a>{{Lang::locale()}}</a></li>
+						<li><a href="{{ url('/locale/fr') }}">fr</a></li>
+						<li><a href="{{ url('/locale/en') }}">en</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 </div>
 
-	@yield('content')
+@yield('content')	
 
 </body>
 </html>

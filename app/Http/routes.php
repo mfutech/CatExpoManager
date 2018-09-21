@@ -68,3 +68,8 @@ Route::prefix('auth')->group(function () {
 
 Route::get('login/facebook', 'Auth\SocialLoginController@redirectToProvider');
 Route::get('login/facebook/callback', 'Auth\SocialLoginController@handleProviderCallback');
+
+Route::get('locale/{locale}', function($locale){
+	Session::put('locale', $locale);
+	return redirect()->back();
+});

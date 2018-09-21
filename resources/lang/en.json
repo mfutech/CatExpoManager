@@ -1,0 +1,15 @@
+{
+    "Bienvenue": "Welcome",
+    "Bonjour": "Hello",
+    "Bienvenue sur le système de gestion des inscriptions aux expositions du Cat Club de Genève":
+     "Welcome to the CCG show registration system.",
+    "Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.":
+     "You need to connect to use the system or register if you haven't already done so",
+    "Acceuil": "Home",
+    "Expositions": "Exposition",
+    "Mes Chats": "My Cats",
+    "Connexion": "Login",
+    "Inscriptions": "Register",
+    "Mon Profile": "My Profie",
+    "Déconnexion": "Logout"
+    }

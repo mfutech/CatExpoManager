@@ -1,13 +1,16 @@
 @extends('page')
 
 @section('page_title')
-Bienvenue
+{{__("Bienvenue")}}
 @endsection
 @section('page_content')
-	<p>Bonjour,</p>
-	<p>Bienvenue sur le système de gestion des inscriptions aux expositions
-	du Cat Club de Genève.
+	<p>
+		{{__("Bonjour")}},
 	</p>
-	<p>Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.
+	<p>
+		{{ __("Bienvenue sur le système de gestion des inscriptions aux expositions du Cat Club de Genève")}}
+	</p>
+	<p>
+		{{__("Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.")}}
 	</p>
 @endsection

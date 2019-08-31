@@ -64,8 +64,10 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show(Cat $cat)
+	public function show($id)
 	{
+		$cat = Cat::find($id);
+		if (! $cat) abort(404);
 		return view('cats.show', compact('cat'));
 	}
 
@@ -75,9 +77,11 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit(Cat $cat)
+	public function edit($id)
 	{
-		return view('cats.edit', compact('cat'));
+		$cat = Cat::find($id);
+		if (! $cat) abort(404);
+		return view('cats.edit', compact('cat'));	
 	}
 
 	/**
@@ -86,16 +90,18 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update(Cat $cat)
+	public function update($id)
 	{
+		$cat = Cat::find($id);
+		if ( ! $cat ) abort(404);
 		if($cat->user_id == Auth::user()->id) {
 			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
 			$cat->update($input);
-			$mesg = 'Donnée validée.';
+			$mesg = __('Donnée validée.');
 
 		}
 		else {
-			$mesg = 'Modification interdite';
+			$mesg = __('Modification interdite');
 		}
 
 		return Redirect::route('cats.show', $cat)->with('message', $mesg);

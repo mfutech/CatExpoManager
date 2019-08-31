@@ -1,7 +1,7 @@
 @extends('page')
 
 @section('page_title')
-Liste de mes Chats
+{{__("Liste de mes Chats")}}
 @endsection
 
 
@@ -19,10 +19,10 @@ Liste de mes Chats
 	</script>
 <table class="table" id="cat-table">
 	<tr>
-		<th>Nom</th>
-		<th>Date de N.</th>
-		<th>Race</th>
-		<th>Couleur</th>
+		<th>{{__("Nom")}}</th>
+		<th>{{__("Date de N.")}}</th>
+		<th>{{__("Race")}}</th>
+		<th>{{__("Couleur")}}</th>
 		<th></th>
 	</tr>
 	@foreach( $cats as $cat)
@@ -32,8 +32,8 @@ Liste de mes Chats
 			<td>{{ $cat->race }} </td>
 			<td>{{ $cat->color }} </td>
 			<td>
-				<a class="btn btn-info" href="{{ route("cats.show", $cat) }}">Détails</a>
-				<a class="btn btn-primary" href="{{ route("cats.edit", $cat) }}">Modifer</a>
+				<a class="btn btn-info" href="{{ route("cats.show", $cat) }}">{{__("Détails")}}</a>
+				<a class="btn btn-primary" href="{{ route("cats.edit", $cat) }}">{{__("Modifier")}}</a>
 			</td>
 		</tr>
 	@endforeach

@@ -51,8 +51,9 @@ class ExpositionsController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(Exposition $expo)
+	public function store()
 	{
+
 		$input = Input::all();
 		Exposition::create( $input );
 		return Redirect::route('expositions.index')->with('message', 'Exposition créée');
@@ -64,8 +65,10 @@ class ExpositionsController extends Controller {
 	 * @param  Exposition $expo
 	 * @return Response
 	 */
-	public function show(Exposition $expo)
+	public function show($id)
 	{
+		$expo = Exposition::find($id);
+		if (! $expo) abort(404);
 		return view('expositions.show', compact('expo'));
 	}
 
@@ -75,8 +78,10 @@ class ExpositionsController extends Controller {
 	 * @param  Exposition $expo
 	 * @return Response
 	 */
-	public function edit(Exposition $expo)
+	public function edit($id)
 	{
+		$expo = Exposition::find($id);
+		if ( ! $expo) abort (404);
 		return view('expositions.edit', compact('expo'));
 	}
 
@@ -86,8 +91,10 @@ class ExpositionsController extends Controller {
 	 * @param  Exposition $expo
 	 * @return Response
 	 */
-	public function update(Exposition $expo)
+	public function update($id)
 	{
+		$expo = Exposition::find($id);
+		if (! $expo) abort(404);
 		$input = array_except(Input::all(), '_method');
 		$expo->update($input);
 		return Redirect::route('expositions.show', $expo->id)->with('message', 'Exposition validée.');
@@ -99,13 +106,11 @@ class ExpositionsController extends Controller {
 	 * @param  Exposition $expo
 	 * @return Response
 	 */
-	public function destroy(Exposition $expo)
+	public function destroy($id)
 	{
-		
 		return Redirect::route('expositions.index')->with('message', 'Opération non supportée.');
 		//$expo->delete();
 		//return Redirect::route('expositions.index')->with('message', 'Exposition effacée.');
-
 	}
 
 }

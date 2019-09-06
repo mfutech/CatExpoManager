@@ -68,7 +68,8 @@
 						<li><a href="{{ url('/auth/register') }}">{{__("Inscriptions")}}</a></li>
 					@else
 						<li><a href="{{ url('/profile') }}">{{__("Mon Profile")}}</a></li>
-						<li><a href="{{ url('/auth/logout') }}">{{__("Déconnexion")}}</a></li>
+						<li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            {{__("Déconnexion")}}</a></li>
 					@endif
 						<li><a href="{{ url('/locale/fr') }}">fr</a></li>
 						<li><a href="{{ url('/locale/en') }}">en</a></li>
@@ -80,5 +81,9 @@
 
 @yield('content')	
 
+
+<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+    {{ csrf_field() }}
+</form>
 </body>
 </html>

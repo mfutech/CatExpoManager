@@ -13,7 +13,7 @@ class Registration extends Model {
 
     public function cat_regs()
     {
-        return $this->belongsToMany('App\CatRegistration');
+        return $this->hasMany('App\CatRegistration');
     }
 
 	public function user()

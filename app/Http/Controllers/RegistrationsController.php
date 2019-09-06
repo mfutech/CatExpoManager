@@ -2,6 +2,9 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Exposition;
+use App\JudgementClasses;
+use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Http\Request;
 
@@ -33,8 +36,9 @@ class RegistrationsController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function create(Request $request)
 	{
+        return "<pre>" . $request->all() . "</pre>";
 		return "create";
 	}
 
@@ -43,8 +47,16 @@ class RegistrationsController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
+        $beside = $request->get('acotede');
+        $nbcage = $request->get('nbcage');
+        $cats =   $request->get('cats');
+        return view('registrations.show', [ 'req'    =>$request,
+                                            'beside' => $beside,
+                                            'nbcage' => $nbcage,
+                                            'cats'   => $cats,
+                                            ]);
 		//
 	}
 
@@ -56,6 +68,10 @@ class RegistrationsController extends Controller {
 	 */
 	public function show($id)
 	{
+        return view('registrations.show', [ 'expo' => $expo,
+                                            'cats' => $cats,
+                                            'classes' => JudgementClasses::all(),
+                                                 ]);
 		//
 	}
 
@@ -101,7 +117,12 @@ class RegistrationsController extends Controller {
 	 */
 	public function register($expo_id)
 	{
-		return "expoid = {$expo_id}";
+        $expo = Exposition::findOrFail($expo_id);
+        $cats = Auth::user()->cats;
+        return view('registrations.register', [ 'expo' => $expo,
+                                                'cats' => $cats,
+                                                'classes' => JudgementClasses::all(),
+                                                 ]);
 	}
 
 

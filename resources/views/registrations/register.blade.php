@@ -47,7 +47,7 @@ Inscription à "{{$expo->title}}"
     <div class="controls">
         {!! Form::model($expo, ['method' => 'POST', 'route' => ['registrations.store', $expo->id]]) !!}
         <!--form role="form" autocomplete="on" id="main-form" action="action.php" method="post" data-toggle="validator" -->
-
+        <input type="hidden" name="expo_id" value="{{$expo->id}}" />
         <div class='col-sm-6'>
             <div class="form-group has-feedback">
                 <label for="Nom">Nombre de cage / Number of cages:</label>

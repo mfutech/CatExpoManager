@@ -13,7 +13,7 @@ class CatRegistrationAddOptions extends Migration
      */
     public function up()
     {
-        Schema::table('catregistrations', function (Blueprint $table) {
+        Schema::table('cat_registrations', function (Blueprint $table) {
             $table->boolean('tica')->nullable()->default(false);
             $table->boolean('worldcup')->nullable()->default(false);
         });
@@ -26,7 +26,7 @@ class CatRegistrationAddOptions extends Migration
      */
     public function down()
     {
-        Schema::table('catregistrations', function (Blueprint $table) {
+        Schema::table('cat_registrations', function (Blueprint $table) {
             $table->dropColumn('tica');
             $table->dropColumn('worldcup');
         });

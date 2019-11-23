@@ -33,7 +33,7 @@ class ProfilesController extends Controller {
 	public function index()
 	{
 		$user = Auth::user();
-		return $this->show($user);
+		return $this->show($user->id);
 	}
 
 	/**
@@ -62,8 +62,9 @@ class ProfilesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show(User $user)
+	public function show($user_id)
 	{
+        $user = User::findOrFail($user_id);
 		return view('profiles.show', compact('user'));
 	}
 
@@ -73,8 +74,11 @@ class ProfilesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit(User $user)
+	public function edit($user_id)
 	{
+        $user = User::findOrFail($user_id);
+        #$profile = $user;
+        #return "<pre>" . var_dump($user) . "</pre><hr><pre>" . var_dump($user) . "</pre>";
 		return view('profiles.edit', compact('user'));
 	}
 
@@ -84,8 +88,9 @@ class ProfilesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update(User $user)
+	public function update($user_id)
 	{
+        $user = User::findOrFail($user_id);
 		if($user->id == Auth::user()->id) {
 			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
 			$user->update($input);
@@ -95,7 +100,7 @@ class ProfilesController extends Controller {
 		else {
 			$mesg = 'Modification interdite';
 		}
-		return Redirect::route('profile.show', $user)->with('message', $mesg);	
+		return Redirect::route('profile.show', $user_id)->with('message', $mesg);	
 	}
 
 	/**

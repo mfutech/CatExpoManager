@@ -1,15 +1,25 @@
 {
+    "Acceuil": "Home",
+    "Ajout d'un chat": "Adding a Cat",
+    "Bienvenue sur le site du Cat Club, vous êtes identifié, vous avez accès aux différents services du Club.": "Welcome on Cat Club of Geneva website. Your are authenticated and can access all services.",
+    "Bienvenue sur le système de gestion des inscriptions aux expositions du Cat Club de Genève": "Welcome to the CCG show registration system.",
     "Bienvenue": "Welcome",
     "Bonjour": "Hello",
-    "Bienvenue sur le système de gestion des inscriptions aux expositions du Cat Club de Genève":
-     "Welcome to the CCG show registration system.",
-    "Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.":
-     "You need to connect to use the system or register if you haven't already done so",
-    "Acceuil": "Home",
-    "Expositions": "Exposition",
-    "Mes Chats": "My Cats",
     "Connexion": "Login",
+    "Couleur": "Colour",
+    "Date de N.": "Birthdate",
+    "Déconnexion": "Logout",
+    "Détails": "Details",
+    "Edition de": "Modifying",
+    "Expositions": "Exposition",
     "Inscriptions": "Register",
+    "Liste de mes Chats": "All my Cats",
+    "Mes Chats": "My Cats",
+    "Modifier": "Modify",
     "Mon Profile": "My Profie",
-    "Déconnexion": "Logout"
-    }
+    "Nom": "Name",
+    "Pour le moment, le système est aux abonnés absents.": "At the moment the system is on leave, please come back in a moment.",
+    "Race": "Breed",
+    "Retour": "Back",
+    "Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.": "You need to connect to use the system or register if you haven't already done so."
+}

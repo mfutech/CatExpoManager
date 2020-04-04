@@ -12,7 +12,7 @@
 							<strong>Aïe Aïe Aïe!</strong> Il y a un problème avec vos informations.<br><br>
 							<ul>
 								@foreach ($errors->all() as $error)
-									<li>{{ $error }}</li>
+									<li>{{ trans($error) }}</li>
 								@endforeach
 							</ul>
 						</div>

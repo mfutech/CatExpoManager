@@ -1,16 +1,16 @@
 @extends('page')
 
 @section('page_title')
-Liste des Chatteries enregistr�es
+{{__("Liste des Chatteries enregistrées")}}
 @endsection
 
 
 @section('page_content')
 <table class="table">
 	<tr>
-		<th>Chatterie</th>
-		<th>Propri�taire</th>
-		<th>WWW</th>
+		<th>{{__("Chatterie")}}</th>
+		<th>{{__("Propriétaire")}}</th>
+		<th>{{__("WWW")}}</th>
 		<th></th>
 	</tr>
 	@foreach( $catteries as $cattery)
@@ -23,7 +23,7 @@ Liste des Chatteries enregistr�es
 			</td>
 			<td>{{ $cattery->url }} </td>
 			<td>
-				<a class="btn btn-info" href="{{ route("catteries.show", $cattery->id) }}">D�tails</a>
+				<a class="btn btn-info" href="{{ route("catteries.show", $cattery->id) }}">{{__("Détails")}}</a>
 			</td>
 		</tr>
 	@endforeach

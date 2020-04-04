@@ -17,5 +17,6 @@ return [
     "user" => "Impossible de trouver un utilisateur avec cette adresse email",
     "token" => "Ce jeton de récupération de mot de passe et invalide.",
     "sent" => "Un email avec un lien pour reinitialiser votre mot de passe a été envoyé",
-    "reset" => "Votre mot de passe a été réinitialisé",
+	"reset" => "Votre mot de passe a été réinitialisé",
+
 ];

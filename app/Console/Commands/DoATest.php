@@ -13,14 +13,14 @@ class DoATest extends Command
      *
      * @var string
      */
-    protected $signature = 'other:make_a_test';
+    protected $signature = 'other:test_mailgun';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'send a mailgun test mail';
 
     /**
      * Create a new command instance.

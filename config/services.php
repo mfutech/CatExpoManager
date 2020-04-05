@@ -15,8 +15,9 @@ return [
 	*/
 
 	'mailgun' => [
-		'domain' => '',
-		'secret' => '',
+		'domain' => env('MAILGUN_DOMAIN', 'need_a_domain'),
+        'secret' => env('MAILGUN_SECRET', 'need_a_secret'),
+        'endpoint' => 'api.eu.mailgun.net',
 	],
 
 	'mandrill' => [

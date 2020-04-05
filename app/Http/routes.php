@@ -19,7 +19,7 @@
 
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
 
-    Route::resource('test', 'testController');
+    Route::resource('test', 'TestController');
 
     // Provide controller methods with object instead of ID
     Route::model('expositions', 'App\Exposition');

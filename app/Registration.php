@@ -11,9 +11,9 @@ class Registration extends Model {
 		'user_id', 'exposition_id', 'status', 'confirmed', 'payed'
 	];
 
-    public function cat_regs()
+    public function cat_registration()
     {
-        return $this->belongsToMany('App\CatRegistration');
+        return $this->hasMany('App\CatRegistration');
     }
 
 	public function user()

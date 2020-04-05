@@ -12,7 +12,7 @@ class CatRegistration extends Migration
      */
     public function up()
     {
-        Schema::create('catregistrations', function(Blueprint $table)
+        Schema::create('cat_registrations', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('registration_id');
@@ -32,7 +32,7 @@ class CatRegistration extends Migration
 	 */
 	public function down()
 	{
-		Schema::drop('catregistrations');
+		Schema::drop('cat_registrations');
 	}
 
 }

@@ -48,8 +48,9 @@
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">Accès</button>
-
-								<a class="btn btn-link" href="{{ url('/password/email') }}">Vous avez oublié votre mot de passe?</a>
+                                <br>
+                                <a href="{{ route('password.email') }}" onclick="event.preventDefault(); document.getElementById('forgetemail-form').submit();">
+                                        Vous avez oublié votre mot de passe?</a>
 							</div>
 						</div>
 					</form>
@@ -58,4 +59,7 @@
 		</div>
 	</div>
 </div>
+<form id="forgetemail-form" action="{{ route('password.email') }}" method="POST" style="display: none;">
+        {{ csrf_field() }}
+</form>
 @endsection

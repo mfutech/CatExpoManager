@@ -12,6 +12,10 @@ use App\JudgementClasses;
 use App\Registration;
 use App\CatRegistration;
 
+use Illuminate\Support\Facades\Mail;
+use App\Mail\RegistrationConfirmation;
+
+
 
 
 class RegistrationsController extends Controller {
@@ -80,6 +84,16 @@ class RegistrationsController extends Controller {
             $cat_reg->category_day2 = $classes_sunday[$i];
             $cat_reg->save();
         }
+
+        Mail::to(
+            Auth::user()->email
+        )->send(
+            new RegistrationConfirmation(
+                $reg, $expo, $reg->cat_registration()->get()
+            )
+        );
+
+
         return view('registrations.show', [ 'req'   => $request,
                                             'reg'   => $reg,
                                             'expo'  => $expo,    

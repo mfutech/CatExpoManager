@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => 'inscription@catclubdegeneve.ch', 'name' => 'Inscription Expos CCG'],
+	'from' => ['address' => 'inscriptions@catclubdegeneve.ch', 'name' => 'Inscriptions Expos CCG'],
 
 	/*
 	|--------------------------------------------------------------------------

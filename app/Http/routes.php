@@ -11,6 +11,7 @@
 |
 */
 
+
 /*
  * Localized ressources
  */
@@ -19,7 +20,7 @@
 
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
 
-    Route::resource('test', 'testController');
+    //Route::resource('test', 'testController');
 
     // Provide controller methods with object instead of ID
     Route::model('expositions', 'App\Exposition');
@@ -31,11 +32,12 @@
     Route::get('/', 'WelcomeController@index');
     Route::get('home', 'HomeController@index');
 
-    Route::get('/simplereg', 'SimpleRegistrationController@register');
+    //Route::get('/simplereg', 'SimpleRegistrationController@register');
 
 
     //Route::get('profile', ['uses' => 'ProfileController@index']);
     Route::get('registrations/register/{expo_id}', ['uses' => 'RegistrationsController@register']);
+    Route::get('registrations/exposition/{expo_id}', ['uses' => 'RegistrationsController@exposition']);
 
     // ressources
     Route::resource('profile', 'ProfileController');
@@ -61,14 +63,17 @@ Route::get('pleasedo-migrate', function() {
 });
 */
 
+//Auth::routes(['verify' => true]);
+
 Route::prefix('auth')->group(
     function () {
-        Auth::routes();
+        Auth::routes(['verify' => true]);
     }
 );
-
+/*
 Route::get('login/facebook', 'Auth\SocialLoginController@redirectToProvider');
 Route::get('login/facebook/callback', 'Auth\SocialLoginController@handleProviderCallback');
+*/
 
 Route::get('locale/{locale}',
     function ($locale) {

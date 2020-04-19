@@ -26,13 +26,23 @@ Inscription Exposition {{$expo->title}}
 <h3>Les chats inscrits sont:</h3>
 <table class='table'>
     <tr>
-        <th>Chat</th><th>Jugement Samedi</th><th>Jugement Dimanche</th>
+        <th>Chat</th><th>Jugement Samedi</th><th></th>
     </tr>
     @foreach ($cat_regs as $cat_reg)
     <tr>
         <td>{{$cat_reg->cat->name}}({{$cat_reg->cat->race}})</td>
         <td>{{$cat_reg->category_day1}}</td>
-        <td>{{$cat_reg->category_day2}}</td>
+        <td>
+            @if($expo->is_tica)
+            {{__("judgement.".$cat_reg->judgement_type)}}
+            @endif
+            @if($expo->is_tica && $expo->is_worldcup)
+            /
+            @endif
+            @if($expo->is_worldcup)
+            World Cup: {{$cat_reg->worldcup ? __("oui") : __("non")}}
+            @endif
+        </td>
     </tr>
     @endforeach
 </table>

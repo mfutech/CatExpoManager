@@ -36,5 +36,17 @@
 	    		@endif
     		</div>
     	</div>
+        @if($expo->is_tica)
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Jugement TICA</label>
+            <label class="col-sm-2 control-label">Oui</label>
+        </div>
+        @endif
+        @if($expo->is_worldcup)
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Concours Worldcup</label>
+            <label class="col-sm-2 control-label">Oui</label>
+        </div>
+        @endif
 	</form>
 @endsection

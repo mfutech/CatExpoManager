@@ -20,8 +20,8 @@ Liste des Exposition du Cat Club
 			<td>{{ $expo->city }} </td>
 			<td>
 				<a class="btn btn-info" href="{{ route("expositions.show", $expo->id) }}">Détails</a>
-				@if(in_array($expo->id, $regexpos))
-					<a class="btn btn-primary" href="{{ route('registrations.show', $expo) }}"> Status Inscription</a>
+				@if(in_array($expo->id,  $regexpos))
+					<a class="btn btn-primary" href="{{ url('registrations/exposition', $expo) }}"> Status Inscription</a>
 				@elseif($expo->subscription_open)
 					<a class="btn btn-primary " href="{{ url('registrations/register', $expo) }}">S'Inscrire</a>
 				@else

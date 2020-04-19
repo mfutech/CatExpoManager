@@ -2,7 +2,7 @@
 
 return array (
   'firstname' => 'Prénom',
-  'name' => 'Nom',
+  'lastname' => 'Nom',
   'email' => 'Adresse courriel',
   'password' => 'Mot de passe',
   'confirm_password' => 'Confirmation MdP',

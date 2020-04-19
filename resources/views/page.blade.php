@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
+		<div class="col-lg-12" xxx="col-md-offset-1">
 			<row>
 				@if (Session::has('message'))
 					<div class="flash alert-info">
@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
+		<div class="col-lg-12" xxx="col-md-offset-1">
 			<div class="panel panel-default">
 				<div class="panel-heading">@yield('page_title')</div>
 				<div class="panel-body">

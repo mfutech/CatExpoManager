@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel {
 	protected $commands = [
         'App\Console\Commands\Inspire',
         'App\Console\Commands\FillJudgementClasses',
-        'App\Console\Commands\DoATest'
+        'App\Console\Commands\DoATest',
+        'App\Console\Commands\DevFlushRegistrations',
 	];
 
 	/**

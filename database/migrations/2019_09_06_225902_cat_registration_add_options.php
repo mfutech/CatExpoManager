@@ -14,7 +14,7 @@ class CatRegistrationAddOptions extends Migration
     public function up()
     {
         Schema::table('cat_registrations', function (Blueprint $table) {
-            $table->boolean('tica')->nullable()->default(false);
+            $table->string('judgement_type')->default("classic");
             $table->boolean('worldcup')->nullable()->default(false);
         });
     }

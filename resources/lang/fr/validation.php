@@ -29,7 +29,7 @@ return [
 	],
 	"boolean"              => "The :attribute field must be true or false.",
 	"confirmed"            => "The :attribute confirmation does not match.",
-	"date"                 => "The :attribute is not a valid date.",
+	"date"                 => "La valeur de :attribute n'est pas une date.",
 	"date_format"          => "The :attribute does not match the format :format.",
 	"different"            => "The :attribute and :other must be different.",
 	"digits"               => "The :attribute must be :digits digits.",
@@ -57,7 +57,7 @@ return [
 	"not_in"               => "The selected :attribute is invalid.",
 	"numeric"              => "The :attribute must be a number.",
 	"regex"                => "The :attribute format is invalid.",
-	"required"             => "The :attribute field is required.",
+	"required"             => "Vous devez reseigner le champ :attribute.",
 	"required_if"          => "The :attribute field is required when :other is :value.",
 	"required_with"        => "The :attribute field is required when :values is present.",
 	"required_with_all"    => "The :attribute field is required when :values is present.",
@@ -88,8 +88,14 @@ return [
 	'custom' => [
 		'attribute-name' => [
 			'rule-name' => 'custom-message',
-		],
-	],
+        ],
+        /*
+        'name' => [
+            'required' => 'besoin du nom du chat ici!'
+        ],*/
+    ],
+
+
 
 	/*
 	|--------------------------------------------------------------------------
@@ -102,6 +108,16 @@ return [
 	|
 	*/
 
-	'attributes' => [],
+    'attributes' => [
+        'name'  => 'nom',
+        'race'  => 'race',
+        'color' => 'couleur',
+        'birthdate' => 'date de naissance',
+        'eyes_color'    => 'couleur des yes',
+        'origin_book'   => 'livre des origines',
+        'breeder'   => 'éleveur',
+        'father'    => 'père',
+        'mother'    => 'mère'
+	],
 
 ];

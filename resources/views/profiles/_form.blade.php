@@ -1,7 +1,7 @@
 
 {!!	BootForm::open(['model'=>$user, 'update' => 'profile.update', 'store'=> 'profile.store']) !!}
 
-{!!	BootForm::text('lastname', TT::trans_label('forms.name'), null, $options ) !!}
+{!!	BootForm::text('lastname', TT::trans_label('forms.lastname'), null, $options ) !!}
 {!! BootForm::text('firstname', TT::trans_label('forms.firstname'), null, $options ) !!}
 {!! BootForm::text('address', TT::trans_label('forms.address'), null, $options ) !!}
 {!! BootForm::text('CP_city', TT::trans_label('forms.CP_city'), null, $options ) !!}

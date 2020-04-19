@@ -49,10 +49,21 @@ class CatsController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+    public function store(Request $request)
 	{
-		$input = array_except(Input::all(), ['_method', '_token']);
-		$cat = Cat::create( $input );
+        $data = $request->validate([
+            'name'  => 'required|max:255',
+            'race'  => 'required|max:255',
+            'color' => 'required|max:255',
+            'birthdate' => 'required|max:255',
+            'eyes_color'    => 'required|max:255',
+            'origin_book'   => 'required|max:255',
+            'breeder'   => 'required|max:255',
+            'father'    => 'required|max:255',
+            'mother'    => 'required|max:255',
+        ]);
+		//$input = array_except(Input::all(), ['_method', '_token']);
+		$cat = Cat::create( $data );
 		$cat->owner()->associate(Auth::user());
 		$cat->save();
 		return Redirect::route('cats.index')->with('message', 'Chat ajouté');
@@ -64,7 +75,7 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show(Request $request, $id)
 	{
 		$cat = Cat::find($id);
 		if (! $cat) abort(404);
@@ -77,7 +88,7 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit(Request $request, $id)
 	{
 		$cat = Cat::find($id);
 		if (! $cat) abort(404);
@@ -90,13 +101,25 @@ class CatsController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update(Request $request, $id)
 	{
+        $data = $request->validate([
+            'name'  => 'required|max:255',
+            'race'  => 'required|max:255',
+            'color' => 'required|max:255',
+            'birthdate' => 'required|date',
+            'eyes_color'    => 'required|max:255',
+            'origin_book'   => 'required|max:255',
+            'breeder'   => 'required|max:255',
+            'father'    => 'required|max:255',
+            'mother'    => 'required|max:255',
+        ]);
+
 		$cat = Cat::find($id);
 		if ( ! $cat ) abort(404);
 		if($cat->user_id == Auth::user()->id) {
-			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
-			$cat->update($input);
+			//$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
+			$cat->update($data);
 			$mesg = __('Donnée validée.');
 
 		}

@@ -21,5 +21,8 @@
     "Pour le moment, le système est aux abonnés absents.": "At the moment the system is on leave, please come back in a moment.",
     "Race": "Breed",
     "Retour": "Back",
-    "Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.": "You need to connect to use the system or register if you haven't already done so."
+    "Vous devez vous enregistrer et vous connecter avant de pouvoir utiliser ce système.": "You need to connect to use the system or register if you haven't already done so.",
+    "oui": "yes",
+    "non": "no"
+
 }

@@ -11,18 +11,16 @@ class RegistrationConfirmation extends Mailable
 {
     use Queueable, SerializesModels;
 
-    private $reg, $expo, $cat_regs;
+    private $user, $reg, $expo, $cat_regs;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($reg, $expo, $cat_regs)
+    public function __construct($reg)
     {
         $this->reg = $reg;
-        $this->expo = $expo;
-        $this->cat_regs = $cat_regs;
     }
 
     /**
@@ -32,14 +30,15 @@ class RegistrationConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.registration.confirmation', [
+        return $this->view('emails.registration.confirmation', [
+            'user'      => $this->reg->user,
             'reg'       => $this->reg,
-            'expo'      => $this->expo,    
-            'cat_regs'  => $this->cat_regs
+            'expo'      => $this->reg->exposition,    
+            'cat_regs'  => $this->reg->cat_registration
             ]
         );
 /*
-        return $this->view('emails.registrationconfirmation', [
+        return $this->markdown('emails.registrationconfirmationmd', [
                                             'reg'       => $this->reg,
                                             'expo'      => $this->expo,    
                                             'cat_regs'  => $this->cat_regs]

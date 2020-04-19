@@ -2,7 +2,7 @@
 
 return array (
   'firstname' => 'Firstname',
-  'name' => 'Name',
+  'lastname' => 'Name',
   'email' => 'E-mail',
   'password' => 'Password',
   'confirm_password' => 'Password confirmation',

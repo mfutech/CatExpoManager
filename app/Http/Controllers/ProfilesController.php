@@ -7,6 +7,7 @@ use Redirect;
 use Gate;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Arr;
 
 use Illuminate\Http\Request;
 
@@ -32,8 +33,8 @@ class ProfilesController extends Controller {
 	 */
 	public function index()
 	{
-		$user = Auth::user();
-		return $this->show($user->id);
+        $user = Auth::user();
+		return view('profiles.show', compact('user'));
 	}
 
 	/**
@@ -64,7 +65,7 @@ class ProfilesController extends Controller {
 	 */
 	public function show($user_id)
 	{
-        $user = User::findOrFail($user_id);
+        $user = User::findOrFail($user_id)->first();
 		return view('profiles.show', compact('user'));
 	}
 
@@ -76,7 +77,7 @@ class ProfilesController extends Controller {
 	 */
 	public function edit($user_id)
 	{
-        $user = User::findOrFail($user_id);
+        $user = User::findOrFail($user_id)->first();
         #$profile = $user;
         #return "<pre>" . var_dump($user) . "</pre><hr><pre>" . var_dump($user) . "</pre>";
 		return view('profiles.edit', compact('user'));
@@ -90,9 +91,9 @@ class ProfilesController extends Controller {
 	 */
 	public function update($user_id)
 	{
-        $user = User::findOrFail($user_id);
+        $user = User::findOrFail($user_id)->first();
 		if($user->id == Auth::user()->id) {
-			$input = array_except(Input::all(), ['_method', '_token', 'user_id']);
+			$input = Arr::except (Input::all(), ['_method', '_token', 'user_id']);
 			$user->update($input);
 			$mesg = 'Donnée validée.';
 

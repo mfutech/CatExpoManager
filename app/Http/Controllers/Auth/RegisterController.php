@@ -79,6 +79,7 @@ class RegisterController extends Controller
             'CP_city'   => $data['CP_city'],
             'country'   => $data['country'],
             'password' => Hash::make($data['password']),
+            'url'       => $data['url']
         ]);
     }
 }

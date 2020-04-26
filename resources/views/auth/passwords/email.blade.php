@@ -1,6 +1,10 @@
-@extends('app')
+@extends('page')
+@section('page_title')
+{{ __('Reset Password') }}<
+@endsection
 
-@section('content')
+
+@section('page_content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

@@ -4,14 +4,21 @@
     "click here to request another": "cliquez ici pour en demander un autre",
     "Confirm Password": "Confirmer le mot de passe",
     "E-Mail Address": "Adresse email",
-    "Forgot Your Password?": "Oublié votre mot de passe ?",
+    "Forgot Your Password?": "Mot de passe oublié ?",
     "Login": "Identifiant",
     "Name": "Nom",
     "Password": "Mot de Passe",
-    "Register": "Enregistrement",
+    "Register": "Inscription",
     "Remember Me": "Se souvenir de moi",
     "Reset Password": "Réinitialiser le mot de passe",
     "Send Password Reset Link": "Envoyer un lien de réinitialisation",
-    "Verify Your Email Address": "Vérifiez votre adresse email"
+    "Verify Your Email Address": "Vérifiez votre adresse email",
+    "Page Expired": "La page a expiré",
+    "If you did not receive the email": "Si vous n'avez pas reçu l'email",
+    "Forbidden": "Interdit",
+    "Not Found": "Introuvable",
+    "Server Error": "Erreur du Serveur",
+    "Oh no": "Zut",
+    "Go Home": "Retour à l'Acceuil"
     
 }
